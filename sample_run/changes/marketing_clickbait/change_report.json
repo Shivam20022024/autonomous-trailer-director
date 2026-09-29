@@ -1,0 +1,69 @@
+{
+  "outcome": "Request rejected; plan unchanged",
+  "trailers": [
+    {
+      "trailer_id": "family_v1",
+      "audience_id": "family",
+      "impacted": false,
+      "impacted_segments": [],
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_before": "PASS_WITH_WARNINGS",
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience_id": "young_adult",
+      "impacted": true,
+      "impacted_segments": [
+        "young_adult_s01"
+      ],
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_before": "PASS_WITH_WARNINGS",
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience_id": "dialect_region",
+      "impacted": false,
+      "impacted_segments": [],
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_before": "PASS_WITH_WARNINGS",
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    }
+  ],
+  "rejection": {
+    "segment_id": "young_adult_s01",
+    "requested": {
+      "text": "Who will DIE for the inheritance?",
+      "seconds": 3.0
+    },
+    "violations": [
+      {
+        "check_id": "TRU-001",
+        "severity": "error",
+        "segment_id": "young_adult_s01",
+        "message": "text_card 'Who will DIE for the inheritance?' claims 'die', which nothing in the episode supports (misleading)",
+        "fix": "remove_text_card"
+      }
+    ],
+    "compliant_alternatives": [
+      {
+        "text": "Family. It's complicated.",
+        "seconds": 2.5
+      }
+    ],
+    "escalation": "Marketing may appeal to editorial; the verifier will still block the card unless the underlying policy or story facts change."
+  },
+  "event_id": "marketing_clickbait",
+  "type": "marketing_request",
+  "description": "Marketing asks for a punchier opening card on the young adult trailer.",
+  "changed_entities": [],
+  "patch": [],
+  "report_path": "sample_run\\changes\\marketing_clickbait\\change_report.md"
+}

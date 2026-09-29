@@ -1,0 +1,92 @@
+{
+  "family": [
+    {
+      "insight_id": "fam-1",
+      "claim": "Multi-generational warmth drives completion for family promos.",
+      "metric": "completion +22%",
+      "usable": true,
+      "flags": [],
+      "prefer_tags": [
+        "warmth",
+        "family"
+      ]
+    },
+    {
+      "insight_id": "fam-2",
+      "claim": "A light mystery beat lifts click-through.",
+      "metric": "CTR +9%",
+      "usable": true,
+      "flags": [],
+      "prefer_tags": [
+        "mystery"
+      ]
+    }
+  ],
+  "young_adult": [
+    {
+      "insight_id": "ya-1",
+      "claim": "Twist-teaser promos had the highest share rate.",
+      "metric": "shares +38%",
+      "usable": false,
+      "flags": [
+        "policy_conflict: recommends ['twist'] content, which the spoiler policy protects"
+      ],
+      "prefer_tags": [
+        "twist",
+        "revelation"
+      ]
+    },
+    {
+      "insight_id": "ya-2",
+      "claim": "Humour combined with family rivalry lifts completion.",
+      "metric": "completion +17%",
+      "usable": true,
+      "flags": [],
+      "prefer_tags": [
+        "humour",
+        "conflict",
+        "identity"
+      ]
+    }
+  ],
+  "dialect_region": [
+    {
+      "insight_id": "dr-1",
+      "claim": "Comedic dialect clips got 2.3x engagement in this region.",
+      "metric": "engagement x2.3",
+      "usable": false,
+      "flags": [
+        "exposure_bias: 81% of earlier promos shown to this segment were of the favoured type, so the lift may reflect what was shown rather than what viewers prefer",
+        "small_sample: n=1400 < 2000"
+      ],
+      "prefer_tags": [
+        "humour",
+        "dialect-rich"
+      ]
+    },
+    {
+      "insight_id": "dr-2",
+      "claim": "Viewers in lower-income districts prefer slapstick.",
+      "metric": "CTR +12%",
+      "usable": false,
+      "flags": [
+        "sensitive_attribute: segments viewers by ['income']; personalising on this risks a social stereotype"
+      ],
+      "prefer_tags": [
+        "humour"
+      ]
+    },
+    {
+      "insight_id": "dr-3",
+      "claim": "Authentic language and family themes drive completion (balanced survey).",
+      "metric": "completion +19%",
+      "usable": true,
+      "flags": [],
+      "prefer_tags": [
+        "dialect-rich",
+        "family",
+        "warmth"
+      ]
+    }
+  ]
+}

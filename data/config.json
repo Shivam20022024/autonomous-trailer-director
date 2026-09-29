@@ -1,0 +1,15 @@
+{
+  "run_id": "sample",
+  "plan_date": "2026-10-01",
+  "campaign_window": {"start": "2026-10-05", "end": "2026-11-30"},
+  "mode": "mock",
+  "model_chain": ["claude-opus-5-5", "claude-sonnet-5-5"],
+  "unavailable_models": [],
+  "budget": {
+    "max_model_calls": 10,
+    "max_media_minutes": 5.0,
+    "max_total_usd": 1.5
+  },
+  "max_repair_rounds": 4,
+  "audiences": ["family", "young_adult", "dialect_region"]
+}

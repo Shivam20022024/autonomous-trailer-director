@@ -1,0 +1,124 @@
+{
+  "run_id": "sample",
+  "mode": "mock",
+  "trailers": {
+    "family": {
+      "trailer_id": "family_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 43.8,
+      "segments": 10
+    },
+    "young_adult": {
+      "trailer_id": "young_adult_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 42.05,
+      "segments": 10
+    },
+    "dialect_region": {
+      "trailer_id": "dialect_region_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 42.4,
+      "segments": 9
+    }
+  },
+  "distinctness": [
+    {
+      "pair": [
+        "dialect_region",
+        "family"
+      ],
+      "shared_clips": 3,
+      "jaccard": 0.188,
+      "too_similar": false
+    },
+    {
+      "pair": [
+        "dialect_region",
+        "young_adult"
+      ],
+      "shared_clips": 3,
+      "jaccard": 0.188,
+      "too_similar": false
+    },
+    {
+      "pair": [
+        "family",
+        "young_adult"
+      ],
+      "shared_clips": 0,
+      "jaccard": 0.0,
+      "too_similar": false
+    }
+  ],
+  "budget": {
+    "model_calls": 4,
+    "max_model_calls": 10,
+    "media_minutes": 2.137,
+    "max_media_minutes": 5.0,
+    "estimated_usd": 0.311232,
+    "max_total_usd": 1.5,
+    "within_budget": true,
+    "ledger": [
+      {
+        "type": "model_call",
+        "task": "analyze_episode",
+        "model": "claude-opus-5-5",
+        "audience": null,
+        "input_tokens": 4032,
+        "output_tokens": 1151,
+        "usd": 0.039148
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:family",
+        "model": "claude-opus-5-5",
+        "audience": "family",
+        "input_tokens": 4070,
+        "output_tokens": 885,
+        "usd": 0.03398
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "family",
+        "minutes": 0.73,
+        "usd": 0.0584
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:young_adult",
+        "model": "claude-opus-5-5",
+        "audience": "young_adult",
+        "input_tokens": 4032,
+        "output_tokens": 864,
+        "usd": 0.033408
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "young_adult",
+        "minutes": 0.701,
+        "usd": 0.056067
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:dialect_region",
+        "model": "claude-opus-5-5",
+        "audience": "dialect_region",
+        "input_tokens": 4059,
+        "output_tokens": 873,
+        "usd": 0.033696
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "dialect_region",
+        "minutes": 0.707,
+        "usd": 0.056533
+      }
+    ]
+  }
+}

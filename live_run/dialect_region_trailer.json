@@ -1,0 +1,857 @@
+{
+  "trailer_id": "dialect_region_v1",
+  "version": 1,
+  "audience": "Dialect-region viewers",
+  "audience_id": "dialect_region",
+  "market": "region_east",
+  "objective": "Build trust with dialect-region viewers by centering authentic dialect, family warmth, and rooted visuals while teasing compelling stakes without spoilers.",
+  "audience_promise": "Your voice, your proverbs, your home—told with respect and heart.",
+  "emotional_journey": [
+    "quiet homecoming",
+    "playful welcome",
+    "embrace and belonging",
+    "wisdom and pride",
+    "a shiver of mystery",
+    "family joy",
+    "old wounds surface",
+    "the stakes become clear",
+    "resolve to protect what matters"
+  ],
+  "target_duration_seconds": [
+    30,
+    50
+  ],
+  "duration_seconds": 34.35,
+  "music_plan": {
+    "bed_track": "music-01",
+    "reason": "A rooted, warm, and hopeful cue that feels native to the haveli setting and supports dialect-rich dialogue without overshadowing it."
+  },
+  "insights_used": [
+    "dr-3"
+  ],
+  "alternate_text_cards": [
+    {
+      "text": "In the words we live by.",
+      "seconds": 2.5
+    },
+    {
+      "text": "Family, in the dialect of the heart.",
+      "seconds": 2.5
+    },
+    {
+      "text": "Our home. Our voice.",
+      "seconds": 2.5
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "dialect_region_s01",
+      "order": 1,
+      "beat": "Rooted opening",
+      "video": "scene_01",
+      "source_ref": "moment:m01a",
+      "source_in": "00:00:04.000",
+      "source_out": "00:00:06.800",
+      "duration_seconds": 2.8,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "In your words. At home.",
+        "seconds": 2.5
+      },
+      "transition": "fade_in",
+      "reason": "Establishes place and mood; signals cultural specificity and warmth (dr-3).",
+      "evidence": [
+        "scene:scene_01",
+        "moment:m01a",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "audience:dialect_region",
+        "market:region_east",
+        "moment:m01a",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_01"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s02",
+      "order": 2,
+      "beat": "Playful welcome",
+      "video": "scene_02",
+      "source_ref": "line:d02_1",
+      "source_in": "00:01:32.150",
+      "source_out": "00:01:34.900",
+      "duration_seconds": 2.75,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d02_1",
+          "speaker": "rinku",
+          "text": "You're slower than the postman, Amar Mama!"
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "Even the postman is quicker than you, Amar Mama!",
+        "cues": [
+          {
+            "line_id": "d02_1",
+            "start": "00:01:32.400",
+            "end": "00:01:35.100",
+            "text": "Even the postman is quicker than you, Amar Mama!"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Affectionate family banter showcases authentic dialect and humor without caricature (dr-3).",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_1",
+        "cue:dialect_a:d02_1",
+        "contract:act-05",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-05",
+        "audience:dialect_region",
+        "cue:dialect_a:d02_1",
+        "line:d02_1",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s03",
+      "order": 3,
+      "beat": "House has been waiting",
+      "video": "scene_02",
+      "source_ref": "line:d02_3",
+      "source_in": "00:02:04.750",
+      "source_out": "00:02:08.300",
+      "duration_seconds": 3.55,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d02_3",
+          "speaker": "dadi",
+          "text": "Come inside, beta. This house has been waiting for you."
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "Come in, beta. This house has waited for you.",
+        "cues": [
+          {
+            "line_id": "d02_3",
+            "start": "00:02:05.000",
+            "end": "00:02:08.500",
+            "text": "Come in, beta. This house has waited for you."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "L-cut",
+      "reason": "Warm welcome deepens belonging and family theme central to completion uplift (dr-3).",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_3",
+        "cue:dialect_a:d02_3",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:dialect_region",
+        "cue:dialect_a:d02_3",
+        "line:d02_3",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s04",
+      "order": 4,
+      "beat": "Proverb of return",
+      "video": "scene_03",
+      "source_ref": "line:d03_2",
+      "source_in": "00:03:03.950",
+      "source_out": "00:03:07.800",
+      "duration_seconds": 3.85,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d03_2",
+          "speaker": "dadi",
+          "text": "When the rain remembers the field, the field forgives the drought."
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "When the rain remembers the field, the field forgives the drought.",
+        "cues": [
+          {
+            "line_id": "d03_2",
+            "start": "00:03:04.100",
+            "end": "00:03:09.000",
+            "text": "When the rain remembers the field, the field forgives the drought."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "match_cut",
+      "reason": "Spotlights a sincere regional saying—authentic language framed with respect (dr-3).",
+      "evidence": [
+        "scene:scene_03",
+        "line:d03_2",
+        "cue:dialect_a:d03_2",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:dialect_region",
+        "cue:dialect_a:d03_2",
+        "line:d03_2",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_03"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s05",
+      "order": 5,
+      "beat": "Night unease",
+      "video": "scene_05",
+      "source_ref": "line:d05_1",
+      "source_in": "00:06:09.900",
+      "source_out": "00:06:12.600",
+      "duration_seconds": 2.7,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d05_1",
+          "speaker": "amar",
+          "text": "Who's there?"
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "Who is it?",
+        "cues": [
+          {
+            "line_id": "d05_1",
+            "start": "00:06:10.000",
+            "end": "00:06:12.500",
+            "text": "Who is it?"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "smash_cut",
+      "reason": "Brief intrigue adds texture without undercutting warmth, inviting curiosity.",
+      "evidence": [
+        "scene:scene_05",
+        "line:d05_1",
+        "cue:dialect_a:d05_1",
+        "contract:act-01",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:dialect_region",
+        "cue:dialect_a:d05_1",
+        "line:d05_1",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_05"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s06",
+      "order": 6,
+      "beat": "Courtyard laughter",
+      "video": "scene_06",
+      "source_ref": "moment:m06b",
+      "source_in": "00:07:10.000",
+      "source_out": "00:07:13.500",
+      "duration_seconds": 3.5,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Everyday joy—Dadi’s laugh and family play—reinforces the heart of the story (dr-3).",
+      "evidence": [
+        "scene:scene_06",
+        "moment:m06b",
+        "contract:act-03",
+        "contract:act-05",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "actor:act-05",
+        "audience:dialect_region",
+        "market:region_east",
+        "moment:m06b",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_06"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s07",
+      "order": 7,
+      "beat": "Old wounds",
+      "video": "scene_04",
+      "source_ref": "line:d04_3",
+      "source_in": "00:04:39.900",
+      "source_out": "00:04:43.700",
+      "duration_seconds": 3.8,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d04_3",
+          "speaker": "bebe",
+          "text": "You left, Amar. Some of us had to stay."
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "You went away, Amar. Some of us stayed.",
+        "cues": [
+          {
+            "line_id": "d04_3",
+            "start": "00:04:40.000",
+            "end": "00:04:44.500",
+            "text": "You went away, Amar. Some of us stayed."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "crossfade",
+      "reason": "Grounded conflict shows lived reality and responsibility, not stereotype.",
+      "evidence": [
+        "scene:scene_04",
+        "line:d04_3",
+        "cue:dialect_a:d04_3",
+        "contract:act-02",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-02",
+        "audience:dialect_region",
+        "cue:dialect_a:d04_3",
+        "line:d04_3",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_04"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s08",
+      "order": 8,
+      "beat": "Will declared",
+      "video": "scene_03",
+      "source_ref": "line:d03_1",
+      "source_in": "00:02:51.750",
+      "source_out": "00:02:57.150",
+      "duration_seconds": 5.4,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d03_1",
+          "speaker": "dadi",
+          "text": "In the city they feed you air and call it dinner."
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "In the city they feed you air and call it a meal.",
+        "cues": [
+          {
+            "line_id": "d03_1",
+            "start": "00:02:52.000",
+            "end": "00:02:56.800",
+            "text": "In the city they feed you air and call it a meal."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "'In the city they feed you air and call it dinner.' (dadi). Best-scoring clip for the 'Will declared' beat that passes every check (matches ['dialect-rich', 'dialogue-heavy', 'warmth']).",
+      "evidence": [
+        "scene:scene_03",
+        "line:d03_1",
+        "cue:dialect_a:d03_1",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:dialect_region",
+        "cue:dialect_a:d03_1",
+        "line:d03_1",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_03"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s09",
+      "order": 9,
+      "beat": "Accusation",
+      "video": "scene_09",
+      "source_ref": "line:d09_2",
+      "source_in": "00:11:15.000",
+      "source_out": "00:11:18.000",
+      "duration_seconds": 3.0,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d09_2",
+          "speaker": "amar",
+          "text": "This is a forgery, and you know it!"
+        }
+      ],
+      "subtitle": {
+        "track": "dialect_a",
+        "text": "This is forged, and you know it!",
+        "cues": [
+          {
+            "line_id": "d09_2",
+            "start": "00:11:15.000",
+            "end": "00:11:18.400",
+            "text": "This is forged, and you know it!"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": {
+        "text": "A home worth fighting for.",
+        "seconds": 2.5
+      },
+      "transition": "smash_cut",
+      "reason": "Emotional spike without revealing twists; frames commitment to family and place (dr-3).",
+      "evidence": [
+        "scene:scene_09",
+        "line:d09_2",
+        "cue:dialect_a:d09_2",
+        "contract:act-01",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:dialect_region",
+        "cue:dialect_a:d09_2",
+        "line:d09_2",
+        "market:region_east",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_09"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_s10",
+      "order": 10,
+      "beat": "Nameplate resolve",
+      "video": "scene_01",
+      "source_ref": "moment:m01b",
+      "source_in": "00:00:31.000",
+      "source_out": "00:00:34.000",
+      "duration_seconds": 3.0,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "A story spoken like home.",
+        "seconds": 2.5
+      },
+      "transition": "dip_to_black",
+      "reason": "Returns to the haveli identity, closing on rooted pride and hope (dr-3).",
+      "evidence": [
+        "scene:scene_01",
+        "moment:m01b",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "audience:dialect_region",
+        "market:region_east",
+        "moment:m01b",
+        "music:music-01",
+        "policy:dialect_region",
+        "scene:scene_01"
+      ],
+      "risk_flags": []
+    }
+  ],
+  "planning_source": {
+    "proposal": "model",
+    "model": "gpt-5",
+    "mode": "live",
+    "usd": 0.079276,
+    "input_tokens": 6141,
+    "output_tokens": 7160
+  },
+  "repair_history": [
+    {
+      "round": 1,
+      "action": "use_dialogue_stem",
+      "segment_id": "dialect_region_s06",
+      "because": [
+        "RGT-001: Original mix of scene_06 carries source music: music-03 ('Pop Hit') is not cleared for promotional use",
+        "RGT-001: Original mix of scene_06 carries source music: music-03 ('Pop Hit') is not cleared in market 'region_east'"
+      ],
+      "from": {
+        "video": "scene_06",
+        "source_ref": "moment:m06b",
+        "source_in": "00:07:10.000",
+        "source_out": "00:07:13.500",
+        "audio": "original_mix",
+        "music": null,
+        "subtitle_track": null,
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_06",
+        "source_ref": "moment:m06b",
+        "source_in": "00:07:10.000",
+        "source_out": "00:07:13.500",
+        "audio": "dialogue_and_music",
+        "music": "music-01",
+        "subtitle_track": null,
+        "text_card": null
+      }
+    },
+    {
+      "round": 1,
+      "action": "replace_clip",
+      "segment_id": "dialect_region_s08",
+      "because": [
+        "SPL-001: Clip shows protected fact pf02 (The trust planned to sell the house and send Dadi away.) via line:d09_1",
+        "RGT-002: munshi (act-04) is not cleared in market 'region_east'",
+        "RGT-003: munshi's voice (act-04) is not cleared for promos (line d09_1)"
+      ],
+      "from": {
+        "video": "scene_09",
+        "source_ref": "line:d09_1",
+        "source_in": "00:10:55.000",
+        "source_out": "00:10:58.800",
+        "audio": "dialogue_and_music",
+        "music": "music-01",
+        "subtitle_track": "dialect_a",
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_03",
+        "source_ref": "line:d03_1",
+        "source_in": "00:02:51.750",
+        "source_out": "00:02:57.150",
+        "audio": "dialogue_and_music",
+        "music": "music-01",
+        "subtitle_track": "dialect_a",
+        "text_card": null
+      },
+      "replacement_reason": "'In the city they feed you air and call it dinner.' (dadi). Best-scoring clip for the 'Will declared' beat that passes every check (matches ['dialect-rich', 'dialogue-heavy', 'warmth'])."
+    }
+  ],
+  "revisions": [],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "errors": [],
+    "warnings": [
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s02",
+        "message": "Clip cuts line 'd02_1' mid-delivery"
+      },
+      {
+        "check_id": "ACC-002",
+        "severity": "warning",
+        "segment_id": "dialect_region_s02",
+        "message": "Subtitle 'd02_1' needs 17.8 chars/s (limit 17)",
+        "approval": "accessibility: condense subtitle"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s02",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s03",
+        "message": "Clip cuts line 'd02_3' mid-delivery"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s04",
+        "message": "Clip cuts line 'd03_2' mid-delivery"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "dialect_region_s05",
+        "message": "scene_05 carries 'frightening'; needs standards review for Dialect-region viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "DESC-001",
+        "severity": "warning",
+        "segment_id": "dialect_region_s05",
+        "message": "Human and AI descriptions of scene_05 disagree on ['ghostly']; verify the footage",
+        "approval": "editorial: verify footage"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s06",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s07",
+        "message": "Clip cuts line 'd04_3' mid-delivery"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "dialect_region_s07",
+        "message": "scene_04 carries 'conflict'; needs standards review for Dialect-region viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "dialect_region_s09",
+        "message": "Clip cuts line 'd09_2' mid-delivery"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "dialect_region_s09",
+        "message": "scene_09 carries 'conflict'; needs standards review for Dialect-region viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "dialect_region_s09",
+        "message": "scene_09 carries 'intense'; needs standards review for Dialect-region viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "DIA-003",
+        "severity": "warning",
+        "segment_id": null,
+        "message": "4/7 dialect lines come from comic scenes; dialect may read as a comic device",
+        "approval": "cultural reviewer"
+      }
+    ],
+    "checks_run": [
+      "ACC-001",
+      "ACC-002",
+      "ACC-003",
+      "ACC-004",
+      "AUD-001",
+      "BUD-001",
+      "CRE-001",
+      "CRE-002",
+      "DESC-001",
+      "DIA-001",
+      "DIA-002",
+      "DIA-003",
+      "DIA-004",
+      "PER-001",
+      "RAT-001",
+      "RAT-002",
+      "RAT-003",
+      "RGT-001",
+      "RGT-002",
+      "RGT-003",
+      "RGT-004",
+      "SEC-001",
+      "SPL-001",
+      "SPL-002",
+      "SPL-003",
+      "SPL-004",
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "TIM-001",
+      "TIM-002",
+      "TIM-003",
+      "TIM-004",
+      "TRU-001",
+      "TRU-002",
+      "TRU-003"
+    ]
+  },
+  "ready_for_editor": true,
+  "human_approvals_required": [
+    {
+      "approval": "accessibility: condense subtitle",
+      "owner": "accessibility",
+      "reasons": [
+        "Subtitle 'd02_1' needs 17.8 chars/s (limit 17)"
+      ],
+      "segments": [
+        "dialect_region_s02"
+      ]
+    },
+    {
+      "approval": "legal: minor in promo",
+      "owner": "legal",
+      "reasons": [
+        "rinku is a minor; promo use needs legal sign-off"
+      ],
+      "segments": [
+        "dialect_region_s02",
+        "dialect_region_s06"
+      ]
+    },
+    {
+      "approval": "standards review",
+      "owner": "editorial",
+      "reasons": [
+        "scene_05 carries 'frightening'; needs standards review for Dialect-region viewers",
+        "scene_04 carries 'conflict'; needs standards review for Dialect-region viewers",
+        "scene_09 carries 'conflict'; needs standards review for Dialect-region viewers",
+        "scene_09 carries 'intense'; needs standards review for Dialect-region viewers"
+      ],
+      "segments": [
+        "dialect_region_s05",
+        "dialect_region_s07",
+        "dialect_region_s09"
+      ]
+    },
+    {
+      "approval": "editorial: verify footage",
+      "owner": "editorial",
+      "reasons": [
+        "Human and AI descriptions of scene_05 disagree on ['ghostly']; verify the footage"
+      ],
+      "segments": [
+        "dialect_region_s05"
+      ]
+    },
+    {
+      "approval": "cultural reviewer",
+      "owner": "editorial",
+      "reasons": [
+        "4/7 dialect lines come from comic scenes; dialect may read as a comic device"
+      ],
+      "segments": []
+    },
+    {
+      "approval": "editorial: final pacing, music edit and emotional read",
+      "owner": "editorial",
+      "reasons": [
+        "Automated checks cannot judge rhythm, performance or whether the cut feels right."
+      ],
+      "segments": []
+    },
+    {
+      "approval": "legal: confirm the rights clearances this plan relies on",
+      "owner": "legal",
+      "reasons": [
+        "Rights-driven repairs were made; legal should confirm the contract data is current."
+      ],
+      "segments": []
+    },
+    {
+      "approval": "cultural reviewer from the region: sign off representation and subtitles",
+      "owner": "cultural",
+      "reasons": [
+        "Dialect treatment and cultural framing need a native reviewer; lexicon checks are not enough."
+      ],
+      "segments": []
+    }
+  ],
+  "assumptions": [
+    "On-screen presence is inferred from shot and dialogue metadata; with no metadata the whole scene cast is assumed present.",
+    "Scene tags and human descriptions are authoritative; AI descriptions only ever add caution, never remove it.",
+    "Rights expiry is checked against the configured campaign window, not just the plan date.",
+    "Historic engagement scores are hypotheses from earlier campaigns and only break ties between compliant clips.",
+    "Dialogue and music stems are available, so 'dialogue_and_music' replaces any source music in the original mix."
+  ],
+  "cost": {
+    "estimated_usd": 0.149018,
+    "breakdown": {
+      "this_trailer_usd": 0.125076,
+      "shared_story_analysis_usd": 0.023942,
+      "model_calls": [
+        {
+          "task": "propose_trailer:dialect_region",
+          "model": "gpt-5",
+          "input_tokens": 6141,
+          "output_tokens": 7160,
+          "usd": 0.079276
+        }
+      ],
+      "keyframe_spot_check": true
+    },
+    "budget_exceeded": false,
+    "lower_cost_fallback": [
+      {
+        "strategy": "Proposal from claude-sonnet-5-5 instead of the preferred model; same verifier and repair",
+        "estimated_usd": 0.107824,
+        "tradeoff": "Somewhat weaker creative drafts; the verifier guarantees the same safety floor."
+      },
+      {
+        "strategy": "Deterministic template planner (no model call), cached story map, no keyframe spot-check",
+        "estimated_usd": 0.0,
+        "tradeoff": "Formulaic beat order and generic promise; description/footage mismatches go straight to a human."
+      }
+    ]
+  }
+}

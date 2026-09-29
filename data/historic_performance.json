@@ -1,0 +1,22 @@
+{
+  "note": "Scene scores are predictions from an engagement model trained on earlier campaigns (0-1). They are hypotheses, not rules, and never override spoiler, rating or rights checks.",
+  "scene_scores": {
+    "scene_10": 0.95,
+    "scene_09": 0.82,
+    "scene_07": 0.78,
+    "scene_06": 0.74,
+    "scene_04": 0.70,
+    "scene_05": 0.66,
+    "scene_02": 0.60,
+    "scene_08": 0.58,
+    "scene_11": 0.55,
+    "scene_03": 0.50,
+    "scene_01": 0.30
+  },
+  "clip_type_metrics": [
+    {"clip_type": "confession / twist reveal", "avg_completion": 0.71, "campaigns": 14},
+    {"clip_type": "comedic banter", "avg_completion": 0.64, "campaigns": 22},
+    {"clip_type": "family warmth", "avg_completion": 0.62, "campaigns": 18},
+    {"clip_type": "atmospheric opener", "avg_completion": 0.48, "campaigns": 30}
+  ]
+}

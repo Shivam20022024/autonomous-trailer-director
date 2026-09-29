@@ -1,0 +1,67 @@
+[
+  {
+    "audience_id": "family",
+    "label": "Family viewers",
+    "goal": "Communicate warmth, stakes and broad entertainment value.",
+    "special_care": "Follow the strictest rating rules and avoid frightening or suggestive context.",
+    "market": "national",
+    "rating_policy": "family",
+    "subtitle_track": "source",
+    "target_duration_seconds": [30, 50],
+    "music_moods": ["warm", "hopeful", "melancholic"],
+    "fallback_promise": "A warm family homecoming, with a mystery waiting inside the old house.",
+    "fallback_journey": ["nostalgia", "joyful homecoming", "a hint of trouble", "tenderness", "playful send-off"],
+    "beat_template": [
+      {"beat": "hook", "tags": ["atmospheric", "quiet"]},
+      {"beat": "setup", "tags": ["warmth", "family", "humour"]},
+      {"beat": "setup", "tags": ["warmth", "family"]},
+      {"beat": "stakes", "tags": ["dialogue-heavy", "mystery"]},
+      {"beat": "heart", "tags": ["emotional", "warmth"]},
+      {"beat": "tease", "tags": ["mystery"]},
+      {"beat": "button", "tags": ["humour", "warmth"]}
+    ]
+  },
+  {
+    "audience_id": "young_adult",
+    "label": "Young adult viewers",
+    "goal": "Highlight pace, humour, identity and character conflict.",
+    "special_care": "Do not use misleading intensity or reveal the central twist.",
+    "market": "national",
+    "rating_policy": "young_adult",
+    "subtitle_track": "source",
+    "target_duration_seconds": [25, 45],
+    "music_moods": ["driving", "tense", "upbeat"],
+    "fallback_promise": "Two cousins, one inheritance, and a lot of arguing.",
+    "fallback_journey": ["banter", "identity clash", "collision", "unanswered question"],
+    "beat_template": [
+      {"beat": "hook", "tags": ["humour", "identity"]},
+      {"beat": "setup", "tags": ["humour", "identity"]},
+      {"beat": "conflict", "tags": ["conflict", "tense"]},
+      {"beat": "conflict", "tags": ["conflict", "dialogue-heavy"]},
+      {"beat": "tease", "tags": ["mystery"]},
+      {"beat": "button", "tags": ["conflict", "emotional"]}
+    ]
+  },
+  {
+    "audience_id": "dialect_region",
+    "label": "Dialect-region viewers",
+    "goal": "Show that the release understands their language and cultural context.",
+    "special_care": "Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+    "market": "region_east",
+    "rating_policy": "dialect_region",
+    "subtitle_track": "dialect_a",
+    "dialect_audience": true,
+    "target_duration_seconds": [30, 50],
+    "music_moods": ["rooted", "warm", "hopeful"],
+    "fallback_promise": "A family mystery told in the voice of home.",
+    "fallback_journey": ["belonging", "sincere tradition", "rupture", "quiet resolve"],
+    "beat_template": [
+      {"beat": "hook", "tags": ["atmospheric"]},
+      {"beat": "culture", "tags": ["dialect-rich"]},
+      {"beat": "setup", "tags": ["warmth", "family"]},
+      {"beat": "heart", "tags": ["emotional", "warmth"]},
+      {"beat": "stakes", "tags": ["conflict", "dialogue-heavy"]},
+      {"beat": "button", "tags": ["dialogue-heavy", "emotional"]}
+    ]
+  }
+]

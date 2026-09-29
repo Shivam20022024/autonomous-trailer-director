@@ -1,0 +1,330 @@
+{
+  "run_id": "sample",
+  "data_dir": "data",
+  "mode": "mock",
+  "input_fingerprint": {
+    "episode": "92f5b3c1ba403471",
+    "subtitles": "b7824e0c30a854e4",
+    "policies": "7b37bbefd7a19649",
+    "contracts": "1f3ae18aa7b15a16",
+    "audiences": "f9b60b1a809bbcf6",
+    "profiles": "3e931c3eda2114d3",
+    "historic": "cd42d2356c02ccbf",
+    "cost_sheet": "1bf51b1d3792401e",
+    "config": "a2d8eabee390f27a"
+  },
+  "story_analysis_cache": {
+    "_replay_note": "Recorded response for task 'analyze_episode'. Contains two deliberately unsupported claims (a relationship and an event) and omits the ending as a protected fact, so the verification layer has something to reject and back-fill.",
+    "characters": [
+      {
+        "character_id": "amar",
+        "role": "protagonist; returns home for the will reading"
+      },
+      {
+        "character_id": "bebe",
+        "role": "co-protagonist; runs the household; keeper of the central secret"
+      },
+      {
+        "character_id": "dadi",
+        "role": "matriarch; emotional centre"
+      },
+      {
+        "character_id": "munshi",
+        "role": "family accountant; reads the will"
+      },
+      {
+        "character_id": "rinku",
+        "role": "comic relief; Bebe's son"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "amar",
+        "to": "bebe",
+        "relation": "cousin",
+        "evidence": [
+          "cast:amar",
+          "cast:bebe"
+        ]
+      },
+      {
+        "from": "bebe",
+        "to": "amar",
+        "relation": "cousin",
+        "evidence": [
+          "cast:bebe"
+        ]
+      },
+      {
+        "from": "dadi",
+        "to": "amar",
+        "relation": "grandson",
+        "evidence": [
+          "cast:amar"
+        ]
+      },
+      {
+        "from": "dadi",
+        "to": "bebe",
+        "relation": "granddaughter",
+        "evidence": [
+          "cast:bebe"
+        ]
+      },
+      {
+        "from": "amar",
+        "to": "dadi",
+        "relation": "grandmother",
+        "evidence": [
+          "cast:dadi"
+        ]
+      },
+      {
+        "from": "bebe",
+        "to": "dadi",
+        "relation": "grandmother",
+        "evidence": [
+          "cast:dadi"
+        ]
+      },
+      {
+        "from": "bebe",
+        "to": "rinku",
+        "relation": "son",
+        "evidence": [
+          "cast:rinku"
+        ]
+      },
+      {
+        "from": "rinku",
+        "to": "bebe",
+        "relation": "mother",
+        "evidence": [
+          "cast:bebe",
+          "cast:rinku"
+        ]
+      },
+      {
+        "from": "rinku",
+        "to": "amar",
+        "relation": "mothers_cousin",
+        "evidence": [
+          "cast:rinku"
+        ]
+      },
+      {
+        "from": "amar",
+        "to": "rinku",
+        "relation": "cousins_son",
+        "evidence": [
+          "cast:rinku"
+        ]
+      },
+      {
+        "from": "munshi",
+        "to": "dadi",
+        "relation": "employer",
+        "evidence": [
+          "cast:munshi"
+        ]
+      },
+      {
+        "from": "munshi",
+        "to": "bebe",
+        "relation": "father",
+        "evidence": [
+          "line:d09_3"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev1",
+        "scene_id": "scene_02",
+        "summary": "Amar comes home and is welcomed by Dadi and Rinku.",
+        "evidence": [
+          "moment:m02c",
+          "line:d02_3"
+        ]
+      },
+      {
+        "event_id": "ev2",
+        "scene_id": "scene_03",
+        "summary": "Munshi-ji announces the will reading.",
+        "evidence": [
+          "line:d03_3"
+        ]
+      },
+      {
+        "event_id": "ev3",
+        "scene_id": "scene_04",
+        "summary": "Amar and Bebe clash over the will.",
+        "evidence": [
+          "line:d04_1",
+          "line:d04_3"
+        ]
+      },
+      {
+        "event_id": "ev4",
+        "scene_id": "scene_07",
+        "summary": "Amar finds a hidden compartment and a stained letter.",
+        "evidence": [
+          "moment:m07b",
+          "moment:m07c"
+        ]
+      },
+      {
+        "event_id": "ev5",
+        "scene_id": "scene_09",
+        "summary": "The will leaves the house to a trust; Amar alleges forgery.",
+        "evidence": [
+          "line:d09_1",
+          "line:d09_2"
+        ]
+      },
+      {
+        "event_id": "ev6",
+        "scene_id": "scene_10",
+        "summary": "Bebe confesses she hid the real will.",
+        "evidence": [
+          "line:d10_1"
+        ]
+      },
+      {
+        "event_id": "ev7",
+        "scene_id": "scene_11",
+        "summary": "The family is reconciled in the first monsoon rain.",
+        "evidence": [
+          "scene:scene_11"
+        ]
+      },
+      {
+        "event_id": "ev8",
+        "scene_id": "scene_09",
+        "summary": "Munshi-ji threatens Amar with a knife.",
+        "evidence": [
+          "line:d09_4"
+        ]
+      }
+    ],
+    "emotional_turns": [
+      {
+        "scene_id": "scene_02",
+        "from": "loneliness",
+        "to": "belonging",
+        "evidence": [
+          "moment:m02a",
+          "moment:m02c"
+        ]
+      },
+      {
+        "scene_id": "scene_04",
+        "from": "warmth",
+        "to": "suspicion",
+        "evidence": [
+          "line:d04_1"
+        ]
+      },
+      {
+        "scene_id": "scene_07",
+        "from": "curiosity",
+        "to": "dread",
+        "evidence": [
+          "moment:m07c"
+        ]
+      },
+      {
+        "scene_id": "scene_08",
+        "from": "exhaustion",
+        "to": "comfort",
+        "evidence": [
+          "line:d08_1",
+          "moment:m08b"
+        ]
+      },
+      {
+        "scene_id": "scene_10",
+        "from": "anger",
+        "to": "understanding",
+        "evidence": [
+          "line:d10_2"
+        ]
+      },
+      {
+        "scene_id": "scene_11",
+        "from": "estrangement",
+        "to": "reconciliation",
+        "evidence": [
+          "line:d11_1"
+        ]
+      }
+    ],
+    "protected_facts": [
+      {
+        "fact_id": "PF1",
+        "statement": "Bebe hid the real will.",
+        "reveal_refs": [
+          "scene:scene_10",
+          "line:d10_1",
+          "line:d08_3",
+          "moment:m10a"
+        ],
+        "keywords": [
+          "hid the will",
+          "hid the real will",
+          "bebe hid",
+          "what i did with the papers",
+          "real will",
+          "confession"
+        ],
+        "forbidden_sequences": [
+          [
+            "line:d09_2",
+            "moment:m09b"
+          ],
+          [
+            "line:d04_1",
+            "moment:m04b"
+          ]
+        ]
+      },
+      {
+        "fact_id": "PF2",
+        "statement": "Bebe hid it because the trust planned to sell the house and send Dadi away.",
+        "reveal_refs": [
+          "line:d10_2"
+        ],
+        "keywords": [
+          "sell this house",
+          "sell the house",
+          "send dadi away",
+          "developers"
+        ],
+        "forbidden_sequences": []
+      }
+    ],
+    "sensitive_content": [
+      {
+        "scene_id": "scene_05",
+        "note": "Dark corridor scare",
+        "evidence": [
+          "moment:m05a"
+        ]
+      },
+      {
+        "scene_id": "scene_07",
+        "note": "Stained letter, possibly blood",
+        "evidence": [
+          "moment:m07c"
+        ]
+      },
+      {
+        "scene_id": "scene_09",
+        "note": "Physical aggression: table slam",
+        "evidence": [
+          "moment:m09a"
+        ]
+      }
+    ]
+  }
+}

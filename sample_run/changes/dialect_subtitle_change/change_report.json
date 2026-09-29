@@ -1,0 +1,130 @@
+{
+  "outcome": "Revised affected trailers",
+  "trailers": [
+    {
+      "trailer_id": "family_v1",
+      "audience_id": "family",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience_id": "young_adult",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience_id": "dialect_region",
+      "impacted": true,
+      "impacted_segments": [
+        "dialect_region_s06"
+      ],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 1,
+      "clip_changes": 1,
+      "new_warnings": [],
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": [
+        {
+          "segment_id": "dialect_region_s06",
+          "change": "modified",
+          "fields": {
+            "source_ref": {
+              "before": "line:d08_1",
+              "after": "line:d08_2"
+            },
+            "source_in": {
+              "before": "00:09:30.750",
+              "after": "00:09:35.950"
+            },
+            "source_out": {
+              "before": "00:09:35.850",
+              "after": "00:09:40.350"
+            },
+            "subtitle_text": {
+              "before": "Beti, you carry this whole house on your shoulders.",
+              "after": "Someone has to, Dadi."
+            }
+          }
+        }
+      ],
+      "repair_actions": [
+        {
+          "round": 1,
+          "action": "reground",
+          "segment_id": "dialect_region_s06",
+          "because": [
+            "SRC-006: Subtitle for 'd08_1' does not match track 'dialect_a'"
+          ]
+        },
+        {
+          "round": 2,
+          "action": "replace_clip",
+          "segment_id": "dialect_region_s06",
+          "because": [
+            "TRU-002: Subtitle dialect_a:d08_1 addresses bebe as 'bahu' (daughter_in_law), but the story map says bebe is dadi's granddaughter"
+          ],
+          "from": {
+            "video": "scene_08",
+            "source_ref": "line:d08_1",
+            "source_in": "00:09:30.750",
+            "source_out": "00:09:35.850",
+            "audio": "dialogue_and_music",
+            "music": "music-05",
+            "subtitle_track": "dialect_a",
+            "text_card": null
+          },
+          "to": {
+            "video": "scene_08",
+            "source_ref": "line:d08_2",
+            "source_in": "00:09:35.950",
+            "source_out": "00:09:40.350",
+            "audio": "dialogue_and_music",
+            "music": "music-05",
+            "subtitle_track": "dialect_a",
+            "text_card": null
+          },
+          "replacement_reason": "'Someone has to, Dadi.' (bebe). Best-scoring clip for the 'heart' beat that passes every check (matches ['emotional', 'warmth'])."
+        }
+      ],
+      "new_trailer_id": "dialect_region_v2",
+      "added_approvals": []
+    }
+  ],
+  "event_id": "dialect_subtitle_change",
+  "type": "subtitle_update",
+  "description": "The localisation vendor redelivers Dialect A. Dadi now addresses Bebe as 'Bahu' (daughter-in-law) instead of 'Beti', which changes their relationship.",
+  "changed_entities": [
+    "cue:dialect_a:d08_1"
+  ],
+  "patch": [
+    {
+      "file": "subtitles",
+      "path": [
+        "cues",
+        "dialect_a",
+        "d08_1"
+      ],
+      "old": "Beti, you carry this whole house on your shoulders.",
+      "new": "Bahu, you carry this whole house on your shoulders."
+    }
+  ],
+  "report_path": "sample_run\\changes\\dialect_subtitle_change\\change_report.md"
+}

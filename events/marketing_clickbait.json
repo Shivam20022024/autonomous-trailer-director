@@ -1,0 +1,10 @@
+{
+  "event_id": "marketing_clickbait",
+  "type": "marketing_request",
+  "description": "Marketing asks for a punchier opening card on the young adult trailer.",
+  "audience": "young_adult",
+  "request": {
+    "beat": "hook",
+    "text_card": {"text": "Who will DIE for the inheritance?", "seconds": 3.0}
+  }
+}

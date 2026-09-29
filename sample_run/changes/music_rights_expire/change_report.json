@@ -1,0 +1,208 @@
+{
+  "outcome": "Revised affected trailers",
+  "trailers": [
+    {
+      "trailer_id": "family_v1",
+      "audience_id": "family",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience_id": "young_adult",
+      "impacted": true,
+      "impacted_segments": [
+        "young_adult_s01",
+        "young_adult_s02",
+        "young_adult_s03",
+        "young_adult_s04",
+        "young_adult_s05",
+        "young_adult_s06",
+        "young_adult_s07",
+        "young_adult_s08",
+        "young_adult_s09",
+        "young_adult_s10"
+      ],
+      "plan_level_dependencies": [
+        "music:music-02"
+      ],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 10,
+      "clip_changes": 0,
+      "new_warnings": [
+        "CRE-002 plan: Music bed music-01 (['melancholic', 'warm']) does not match the audience's intended moods ['driving', 'tense', 'upbeat']; no cleared track does"
+      ],
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": [
+        {
+          "segment_id": "young_adult_s01",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s02",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s03",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s04",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s05",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s06",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s07",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s08",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s09",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": "young_adult_s10",
+          "change": "modified",
+          "fields": {
+            "music": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        },
+        {
+          "segment_id": null,
+          "change": "music_bed",
+          "fields": {
+            "bed_track": {
+              "before": "music-02",
+              "after": "music-01"
+            }
+          }
+        }
+      ],
+      "repair_actions": [
+        {
+          "round": 1,
+          "action": "swap_music",
+          "segment_id": null,
+          "because": [
+            "Music bed: music-02 ('Tense Beats') rights expire 2026-10-20, before campaign end 2026-11-30"
+          ],
+          "from": "music-02",
+          "to": "music-01"
+        }
+      ],
+      "new_trailer_id": "young_adult_v2",
+      "added_approvals": [
+        "editorial: music selection"
+      ]
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience_id": "dialect_region",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    }
+  ],
+  "event_id": "music_rights_expire",
+  "type": "contract_update",
+  "description": "The label notifies us that promo rights for 'Tense Beats' (music-02) end on 2026-10-20, before the campaign closes on 2026-11-30.",
+  "changed_entities": [
+    "music:music-02"
+  ],
+  "patch": [
+    {
+      "file": "contracts",
+      "path": [
+        "music",
+        {
+          "track_id": "music-02"
+        },
+        "expires"
+      ],
+      "old": "2026-12-31",
+      "new": "2026-10-20"
+    }
+  ],
+  "report_path": "sample_run\\changes\\music_rights_expire\\change_report.md"
+}

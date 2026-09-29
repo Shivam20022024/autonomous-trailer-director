@@ -1,0 +1,849 @@
+{
+  "rules": [
+    {
+      "rule_id": "RGT-MUSIC-music-03-national",
+      "category": "rights",
+      "statement": "music-03 ('Pop Hit') is not cleared for promotional use",
+      "source": "contracts.json#music/music-03",
+      "applies_to": {
+        "music": [
+          "music-03"
+        ],
+        "markets": [
+          "national"
+        ],
+        "audiences": [
+          "family",
+          "young_adult"
+        ],
+        "scenes_with_source_music": [
+          "scene_06"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RGT-001"
+    },
+    {
+      "rule_id": "RGT-MUSIC-music-03-region_east",
+      "category": "rights",
+      "statement": "music-03 ('Pop Hit') is not cleared for promotional use; music-03 ('Pop Hit') is not cleared in market 'region_east'",
+      "source": "contracts.json#music/music-03",
+      "applies_to": {
+        "music": [
+          "music-03"
+        ],
+        "markets": [
+          "region_east"
+        ],
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes_with_source_music": [
+          "scene_06"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RGT-001"
+    },
+    {
+      "rule_id": "RGT-MUSIC-music-04-region_east",
+      "category": "rights",
+      "statement": "music-04 ('Monsoon Theme') is not cleared in market 'region_east'",
+      "source": "contracts.json#music/music-04",
+      "applies_to": {
+        "music": [
+          "music-04"
+        ],
+        "markets": [
+          "region_east"
+        ],
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes_with_source_music": []
+      },
+      "severity": "error",
+      "verified_by": "RGT-001"
+    },
+    {
+      "rule_id": "RGT-ACTOR-act-04-VOICE",
+      "category": "rights",
+      "statement": "munshi's voice (act-04) may not be heard in promos",
+      "source": "contracts.json#actors/act-04",
+      "applies_to": {
+        "actors": [
+          "act-04"
+        ],
+        "characters": [
+          "munshi"
+        ],
+        "scenes": [
+          "scene_03",
+          "scene_05",
+          "scene_09"
+        ],
+        "lines": [
+          "d03_3",
+          "d09_1",
+          "d09_3"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RGT-003"
+    },
+    {
+      "rule_id": "RGT-ACTOR-act-04-TERRITORY-region_east",
+      "category": "rights",
+      "statement": "munshi (act-04) is not cleared in market 'region_east'",
+      "source": "contracts.json#actors/act-04",
+      "applies_to": {
+        "actors": [
+          "act-04"
+        ],
+        "characters": [
+          "munshi"
+        ],
+        "scenes": [
+          "scene_03",
+          "scene_05",
+          "scene_09"
+        ],
+        "markets": [
+          "region_east"
+        ],
+        "audiences": [
+          "dialect_region"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RGT-002"
+    },
+    {
+      "rule_id": "RGT-ACTOR-act-05-MINOR",
+      "category": "rights",
+      "statement": "rinku is a minor; every promo use needs legal sign-off",
+      "source": "contracts.json#actors/act-05",
+      "applies_to": {
+        "actors": [
+          "act-05"
+        ],
+        "characters": [
+          "rinku"
+        ],
+        "scenes": [
+          "scene_02",
+          "scene_03",
+          "scene_06",
+          "scene_11"
+        ]
+      },
+      "severity": "human_approval",
+      "verified_by": "RGT-004"
+    },
+    {
+      "rule_id": "RAT-family-TAG-intense",
+      "category": "rating",
+      "statement": "'intense' content is not allowed for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_07",
+          "scene_09"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-family-TAG-frightening",
+      "category": "rating",
+      "statement": "'frightening' content is not allowed for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_05"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-family-TAG-blood",
+      "category": "rating",
+      "statement": "'blood' content is not allowed for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_07"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-family-CAUTION-conflict",
+      "category": "rating",
+      "statement": "'conflict' content needs standards review for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_04",
+          "scene_09"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-family-CAUTION-tense",
+      "category": "rating",
+      "statement": "'tense' content needs standards review for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_04"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-family-CAUTION-suspense",
+      "category": "rating",
+      "statement": "'suspense' content needs standards review for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "scenes": [
+          "scene_05"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-family-VISUAL-blood_closeup",
+      "category": "rating",
+      "statement": "'blood_closeup' shots are not allowed for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "moments": [
+          "m07c"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-family-VISUAL-jump_scare",
+      "category": "rating",
+      "statement": "'jump_scare' shots are not allowed for Family viewers",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ],
+        "moments": [
+          "m05a"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-family-WORDS",
+      "category": "rating",
+      "statement": "Text cards and voice-over may not use: ['blood', 'bloody', 'kill', 'killed', 'die', 'dies', 'death', 'dead', 'murder', 'ghost']",
+      "source": "policies.json#rating_policies/family",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-003"
+    },
+    {
+      "rule_id": "TIM-family-DURATION",
+      "category": "timing",
+      "statement": "Total duration must be 30-50s",
+      "source": "audiences.json",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "TIM-001"
+    },
+    {
+      "rule_id": "ACC-family-SUBTITLES",
+      "category": "accessibility",
+      "statement": "All audible dialogue must carry 'source' subtitles within reading-speed limits",
+      "source": "policies.json#accessibility",
+      "applies_to": {
+        "audiences": [
+          "family"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "ACC-001/ACC-002/DIA-001"
+    },
+    {
+      "rule_id": "RAT-young_adult-CAUTION-frightening",
+      "category": "rating",
+      "statement": "'frightening' content needs standards review for Young adult viewers",
+      "source": "policies.json#rating_policies/young_adult",
+      "applies_to": {
+        "audiences": [
+          "young_adult"
+        ],
+        "scenes": [
+          "scene_05"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-young_adult-CAUTION-intense",
+      "category": "rating",
+      "statement": "'intense' content needs standards review for Young adult viewers",
+      "source": "policies.json#rating_policies/young_adult",
+      "applies_to": {
+        "audiences": [
+          "young_adult"
+        ],
+        "scenes": [
+          "scene_07",
+          "scene_09"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "TIM-young_adult-DURATION",
+      "category": "timing",
+      "statement": "Total duration must be 25-45s",
+      "source": "audiences.json",
+      "applies_to": {
+        "audiences": [
+          "young_adult"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "TIM-001"
+    },
+    {
+      "rule_id": "ACC-young_adult-SUBTITLES",
+      "category": "accessibility",
+      "statement": "All audible dialogue must carry 'source' subtitles within reading-speed limits",
+      "source": "policies.json#accessibility",
+      "applies_to": {
+        "audiences": [
+          "young_adult"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "ACC-001/ACC-002/DIA-001"
+    },
+    {
+      "rule_id": "RAT-dialect_region-TAG-blood",
+      "category": "rating",
+      "statement": "'blood' content is not allowed for Dialect-region viewers",
+      "source": "policies.json#rating_policies/dialect_region",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes": [
+          "scene_07"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "RAT-dialect_region-CAUTION-intense",
+      "category": "rating",
+      "statement": "'intense' content needs standards review for Dialect-region viewers",
+      "source": "policies.json#rating_policies/dialect_region",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes": [
+          "scene_07",
+          "scene_09"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-dialect_region-CAUTION-frightening",
+      "category": "rating",
+      "statement": "'frightening' content needs standards review for Dialect-region viewers",
+      "source": "policies.json#rating_policies/dialect_region",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes": [
+          "scene_05"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-dialect_region-CAUTION-conflict",
+      "category": "rating",
+      "statement": "'conflict' content needs standards review for Dialect-region viewers",
+      "source": "policies.json#rating_policies/dialect_region",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ],
+        "scenes": [
+          "scene_04",
+          "scene_09"
+        ]
+      },
+      "severity": "warning",
+      "verified_by": "RAT-002"
+    },
+    {
+      "rule_id": "RAT-dialect_region-VISUAL-blood_closeup",
+      "category": "rating",
+      "statement": "'blood_closeup' shots are not allowed for Dialect-region viewers",
+      "source": "policies.json#rating_policies/dialect_region",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ],
+        "moments": [
+          "m07c"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "RAT-001"
+    },
+    {
+      "rule_id": "TIM-dialect_region-DURATION",
+      "category": "timing",
+      "statement": "Total duration must be 30-50s",
+      "source": "audiences.json",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "TIM-001"
+    },
+    {
+      "rule_id": "ACC-dialect_region-SUBTITLES",
+      "category": "accessibility",
+      "statement": "All audible dialogue must carry 'dialect_a' subtitles within reading-speed limits",
+      "source": "policies.json#accessibility",
+      "applies_to": {
+        "audiences": [
+          "dialect_region"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "ACC-001/ACC-002/DIA-001"
+    },
+    {
+      "rule_id": "SPL-pf01",
+      "category": "spoiler",
+      "statement": "Protected fact: Bebe secretly hid the real will.",
+      "source": "spoiler_map (model_verified)",
+      "applies_to": {
+        "refs": [
+          "line:d08_3",
+          "moment:m09b",
+          "moment:m10a",
+          "line:d10_1"
+        ],
+        "forbidden_sequences": [
+          [
+            "line:d08_3",
+            "moment:m10a"
+          ],
+          [
+            "moment:m09b",
+            "line:d10_1"
+          ],
+          [
+            "line:d08_3",
+            "line:d10_1"
+          ]
+        ],
+        "text_keywords": [
+          "hidden will",
+          "Bebe confession",
+          "papers",
+          "trunk"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "SPL-001/SPL-002/SPL-003"
+    },
+    {
+      "rule_id": "SPL-pf02",
+      "category": "spoiler",
+      "statement": "Protected fact: The trust planned to sell the house and send Dadi away.",
+      "source": "spoiler_map (model_verified)",
+      "applies_to": {
+        "refs": [
+          "line:d10_2",
+          "line:d04_1",
+          "line:d09_1"
+        ],
+        "forbidden_sequences": [
+          [
+            "line:d09_1",
+            "line:d10_2"
+          ],
+          [
+            "line:d04_1",
+            "line:d10_2"
+          ]
+        ],
+        "text_keywords": [
+          "trust plan",
+          "sell house",
+          "send Dadi away"
+        ]
+      },
+      "severity": "error",
+      "verified_by": "SPL-001/SPL-002/SPL-003"
+    },
+    {
+      "rule_id": "SPL-EDITORIAL-scene_10",
+      "category": "spoiler",
+      "statement": "Protected fact: Editorially protected scene 'The confession' (tags: ['spoiler', 'twist'])",
+      "source": "spoiler_map (editorial_tag)",
+      "applies_to": {
+        "refs": [
+          "scene:scene_10"
+        ],
+        "forbidden_sequences": [],
+        "text_keywords": []
+      },
+      "severity": "error",
+      "verified_by": "SPL-001/SPL-002/SPL-003"
+    },
+    {
+      "rule_id": "SPL-EDITORIAL-scene_11",
+      "category": "spoiler",
+      "statement": "Protected fact: Editorially protected scene 'Monsoon morning' (tags: ['ending'])",
+      "source": "spoiler_map (editorial_tag)",
+      "applies_to": {
+        "refs": [
+          "scene:scene_11"
+        ],
+        "forbidden_sequences": [],
+        "text_keywords": []
+      },
+      "severity": "error",
+      "verified_by": "SPL-001/SPL-002/SPL-003"
+    },
+    {
+      "rule_id": "TRU-CLAIMS",
+      "category": "story_truth",
+      "statement": "Text cards and voice-over may not claim deaths, ghosts, affairs etc. that the episode's human descriptions and dialogue do not support",
+      "source": "policies.json#claim_lexicon",
+      "applies_to": {},
+      "severity": "error",
+      "verified_by": "TRU-001"
+    },
+    {
+      "rule_id": "TRU-RELATIONSHIPS",
+      "category": "story_truth",
+      "statement": "Subtitles may not change a relationship established in the story map",
+      "source": "policies.json#kinship_lexicon",
+      "applies_to": {},
+      "severity": "error",
+      "verified_by": "TRU-002"
+    },
+    {
+      "rule_id": "DIA-STEREOTYPE",
+      "category": "cultural_respect",
+      "statement": "No stereotyping language in text cards or voice-over",
+      "source": "policies.json#stereotype_lexicon",
+      "applies_to": {},
+      "severity": "error",
+      "verified_by": "DIA-002"
+    },
+    {
+      "rule_id": "PER-INSIGHTS",
+      "category": "bias",
+      "statement": "Only bias-reviewed audience insights may shape a plan",
+      "source": "audience_profiles.json + policies.json#bias_thresholds",
+      "applies_to": {
+        "excluded": {
+          "family": [],
+          "young_adult": [
+            "ya-1"
+          ],
+          "dialect_region": [
+            "dr-1",
+            "dr-2"
+          ]
+        }
+      },
+      "severity": "error",
+      "verified_by": "PER-001"
+    }
+  ],
+  "scene_eligibility": {
+    "family": {
+      "scene_01": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_02": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_03": {
+        "status": "restricted",
+        "rules": [
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_04": {
+        "status": "restricted",
+        "rules": [
+          "RAT-family-CAUTION-conflict",
+          "RAT-family-CAUTION-tense",
+          "SPL-pf02"
+        ]
+      },
+      "scene_05": {
+        "status": "blocked",
+        "rules": [
+          "RAT-family-CAUTION-suspense",
+          "RAT-family-TAG-frightening",
+          "RAT-family-VISUAL-jump_scare",
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_06": {
+        "status": "restricted",
+        "rules": [
+          "RGT-MUSIC-music-03-national"
+        ]
+      },
+      "scene_07": {
+        "status": "blocked",
+        "rules": [
+          "RAT-family-TAG-blood",
+          "RAT-family-TAG-intense",
+          "RAT-family-VISUAL-blood_closeup"
+        ]
+      },
+      "scene_08": {
+        "status": "restricted",
+        "rules": [
+          "SPL-pf01"
+        ]
+      },
+      "scene_09": {
+        "status": "blocked",
+        "rules": [
+          "RAT-family-CAUTION-conflict",
+          "RAT-family-TAG-intense",
+          "RGT-ACTOR-act-04-VOICE",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_10": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_10",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_11": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_11"
+        ]
+      }
+    },
+    "young_adult": {
+      "scene_01": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_02": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_03": {
+        "status": "restricted",
+        "rules": [
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_04": {
+        "status": "restricted",
+        "rules": [
+          "SPL-pf02"
+        ]
+      },
+      "scene_05": {
+        "status": "restricted",
+        "rules": [
+          "RAT-young_adult-CAUTION-frightening",
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_06": {
+        "status": "restricted",
+        "rules": [
+          "RGT-MUSIC-music-03-national"
+        ]
+      },
+      "scene_07": {
+        "status": "caution",
+        "rules": [
+          "RAT-young_adult-CAUTION-intense"
+        ]
+      },
+      "scene_08": {
+        "status": "restricted",
+        "rules": [
+          "SPL-pf01"
+        ]
+      },
+      "scene_09": {
+        "status": "restricted",
+        "rules": [
+          "RAT-young_adult-CAUTION-intense",
+          "RGT-ACTOR-act-04-VOICE",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_10": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_10",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_11": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_11"
+        ]
+      }
+    },
+    "dialect_region": {
+      "scene_01": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_02": {
+        "status": "open",
+        "rules": []
+      },
+      "scene_03": {
+        "status": "restricted",
+        "rules": [
+          "RGT-ACTOR-act-04-TERRITORY-region_east",
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_04": {
+        "status": "restricted",
+        "rules": [
+          "RAT-dialect_region-CAUTION-conflict",
+          "SPL-pf02"
+        ]
+      },
+      "scene_05": {
+        "status": "restricted",
+        "rules": [
+          "RAT-dialect_region-CAUTION-frightening",
+          "RGT-ACTOR-act-04-TERRITORY-region_east",
+          "RGT-ACTOR-act-04-VOICE"
+        ]
+      },
+      "scene_06": {
+        "status": "restricted",
+        "rules": [
+          "RGT-MUSIC-music-03-region_east"
+        ]
+      },
+      "scene_07": {
+        "status": "blocked",
+        "rules": [
+          "RAT-dialect_region-CAUTION-intense",
+          "RAT-dialect_region-TAG-blood",
+          "RAT-dialect_region-VISUAL-blood_closeup"
+        ]
+      },
+      "scene_08": {
+        "status": "restricted",
+        "rules": [
+          "SPL-pf01"
+        ]
+      },
+      "scene_09": {
+        "status": "restricted",
+        "rules": [
+          "RAT-dialect_region-CAUTION-conflict",
+          "RAT-dialect_region-CAUTION-intense",
+          "RGT-ACTOR-act-04-TERRITORY-region_east",
+          "RGT-ACTOR-act-04-VOICE",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_10": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_10",
+          "SPL-pf01",
+          "SPL-pf02"
+        ]
+      },
+      "scene_11": {
+        "status": "blocked",
+        "rules": [
+          "SPL-EDITORIAL-scene_11"
+        ]
+      }
+    }
+  }
+}

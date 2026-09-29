@@ -1,0 +1,111 @@
+{
+  "rating_policies": {
+    "family": {
+      "rules": "Follow the strictest rating rules. Avoid frightening or suggestive context.",
+      "forbidden_tags": ["intense", "frightening", "blood", "violence", "explicit-violence", "suggestive"],
+      "caution_tags": ["conflict", "tense", "suspense"],
+      "forbidden_visual_tags": ["blood_closeup", "weapon", "jump_scare"],
+      "forbidden_words": ["blood", "bloody", "kill", "killed", "die", "dies", "death", "dead", "murder", "ghost"]
+    },
+    "young_adult": {
+      "rules": "Highlight pace, humour, identity and character conflict. Do not use misleading intensity or reveal the central twist.",
+      "forbidden_tags": ["explicit-violence", "suggestive"],
+      "caution_tags": ["frightening", "intense"],
+      "forbidden_visual_tags": ["weapon"],
+      "forbidden_words": [],
+      "avoid_misleading_intensity": true
+    },
+    "dialect_region": {
+      "rules": "Show that the release understands the audience's language and cultural context. Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+      "forbidden_tags": ["explicit-violence", "suggestive", "blood"],
+      "caution_tags": ["intense", "frightening", "conflict"],
+      "forbidden_visual_tags": ["blood_closeup"],
+      "forbidden_words": []
+    }
+  },
+  "spoiler_policy": {
+    "protected_scene_tags": ["spoiler", "twist", "ending"],
+    "statement": "Protected story facts may not be shown, quoted, captioned or implied by clip order in any trailer. Editorial spoiler tags are authoritative; model-proposed protected facts are accepted only with verifiable evidence and can only add protection, never remove it."
+  },
+  "accessibility": {
+    "max_subtitle_cps": 17,
+    "text_card_cps": 12,
+    "min_text_card_seconds": 1.5,
+    "require_subtitles_for_dialogue": true,
+    "require_captions_for_voice_over": true
+  },
+  "timing": {
+    "min_clip_seconds": 1.5,
+    "max_clip_seconds": 8.0,
+    "line_pad_in_seconds": 0.25,
+    "line_pad_out_seconds": 0.35
+  },
+  "sensitive_description_terms": {
+    "blood": "blood", "bloody": "blood", "blood-stained": "blood",
+    "ghost": "frightening", "ghostly": "frightening", "haunted": "frightening",
+    "knife": "violence", "gun": "violence", "weapon": "violence",
+    "kiss": "suggestive", "nude": "suggestive"
+  },
+  "claim_lexicon": {
+    "die": ["die", "dies", "died", "dead", "death", "kill", "killed"],
+    "dies": ["die", "dies", "died", "dead", "death", "kill", "killed"],
+    "death": ["die", "dies", "died", "dead", "death", "kill", "killed"],
+    "dead": ["die", "dies", "died", "dead", "death", "kill", "killed"],
+    "kill": ["kill", "killed", "murder"],
+    "murder": ["murder", "killed"],
+    "ghost": ["ghost", "haunted"],
+    "haunted": ["ghost", "haunted"],
+    "affair": ["affair"],
+    "curse": ["curse", "cursed"],
+    "cursed": ["curse", "cursed"],
+    "lovers": ["lover", "lovers", "romance"]
+  },
+  "stereotype_lexicon": [
+    "desi tadka", "full comedy", "gawar", "rustic simpletons", "funny accent",
+    "typical villagers", "village idiots", "country bumpkins", "backward village", "simple village folk"
+  ],
+  "injection_patterns": [
+    "ignore (the|all|any|previous|prior)",
+    "system note",
+    "note to (the )?ai",
+    "disregard",
+    "override",
+    "you are an ai",
+    "approved for all trailers"
+  ],
+  "kinship_lexicon": {
+    "bahu": ["daughter_in_law"],
+    "beti": ["daughter", "granddaughter", "niece"],
+    "beta": ["son", "grandson", "nephew", "daughter", "granddaughter"],
+    "dadi": ["grandmother"],
+    "mama": ["maternal_uncle", "mothers_cousin"],
+    "didi": ["sister", "cousin"],
+    "bhaiya": ["brother", "cousin"]
+  },
+  "relation_keywords": {
+    "cousin": ["cousin"],
+    "grandson": ["grandson", "grandmother of"],
+    "granddaughter": ["granddaughter", "grandmother of"],
+    "grandmother": ["grandmother", "grandson", "granddaughter"],
+    "son": ["son"],
+    "mother": ["son", "mother"],
+    "mothers_cousin": ["mother's cousin", "cousin"],
+    "cousins_son": ["mother's cousin", "cousin"],
+    "father": ["father"],
+    "employer": ["accountant"],
+    "accountant": ["accountant"]
+  },
+  "intensity": {
+    "intense_tags": ["intense", "tense", "frightening", "conflict", "suspense"],
+    "max_excess_share": 0.35
+  },
+  "dialect": {
+    "comic_device_max_share": 0.5,
+    "cultural_evidence_tags": ["dialect-rich"]
+  },
+  "bias_thresholds": {
+    "max_exposure_share": 0.6,
+    "min_sample_size": 2000,
+    "sensitive_attributes": ["income", "caste", "religion", "gender", "ethnicity", "education"]
+  }
+}

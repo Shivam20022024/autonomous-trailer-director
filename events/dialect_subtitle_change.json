@@ -1,0 +1,8 @@
+{
+  "event_id": "dialect_subtitle_change",
+  "type": "subtitle_update",
+  "description": "The localisation vendor redelivers Dialect A. Dadi now addresses Bebe as 'Bahu' (daughter-in-law) instead of 'Beti', which changes their relationship.",
+  "patch": [
+    {"file": "subtitles", "path": ["cues", "dialect_a", "d08_1"], "value": "Bahu, you carry this whole house on your shoulders."}
+  ]
+}

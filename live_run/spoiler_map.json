@@ -1,0 +1,128 @@
+{
+  "policy": "Protected story facts may not be shown, quoted, captioned or implied by clip order in any trailer. Editorial spoiler tags are authoritative; model-proposed protected facts are accepted only with verifiable evidence and can only add protection, never remove it.",
+  "coverage": "story_analysis+editorial",
+  "protected_facts": [
+    {
+      "fact_id": "pf01",
+      "statement": "Bebe secretly hid the real will.",
+      "source": "model_verified",
+      "protected_ranges": [
+        {
+          "ref": "line:d08_3",
+          "scene_id": "scene_08",
+          "start": "00:10:05.000",
+          "end": "00:10:09.800"
+        },
+        {
+          "ref": "moment:m09b",
+          "scene_id": "scene_09",
+          "start": "00:11:24.000",
+          "end": "00:11:28.000"
+        },
+        {
+          "ref": "moment:m10a",
+          "scene_id": "scene_10",
+          "start": "00:12:10.000",
+          "end": "00:12:15.000"
+        },
+        {
+          "ref": "line:d10_1",
+          "scene_id": "scene_10",
+          "start": "00:12:20.000",
+          "end": "00:12:24.000"
+        }
+      ],
+      "text_keywords": [
+        "hidden will",
+        "Bebe confession",
+        "papers",
+        "trunk"
+      ],
+      "forbidden_sequences": [
+        [
+          "line:d08_3",
+          "moment:m10a"
+        ],
+        [
+          "moment:m09b",
+          "line:d10_1"
+        ],
+        [
+          "line:d08_3",
+          "line:d10_1"
+        ]
+      ]
+    },
+    {
+      "fact_id": "pf02",
+      "statement": "The trust planned to sell the house and send Dadi away.",
+      "source": "model_verified",
+      "protected_ranges": [
+        {
+          "ref": "line:d10_2",
+          "scene_id": "scene_10",
+          "start": "00:12:40.000",
+          "end": "00:12:45.000"
+        },
+        {
+          "ref": "line:d04_1",
+          "scene_id": "scene_04",
+          "start": "00:04:12.300",
+          "end": "00:04:15.900"
+        },
+        {
+          "ref": "line:d09_1",
+          "scene_id": "scene_09",
+          "start": "00:10:55.000",
+          "end": "00:11:00.200"
+        }
+      ],
+      "text_keywords": [
+        "trust plan",
+        "sell house",
+        "send Dadi away"
+      ],
+      "forbidden_sequences": [
+        [
+          "line:d09_1",
+          "line:d10_2"
+        ],
+        [
+          "line:d04_1",
+          "line:d10_2"
+        ]
+      ]
+    },
+    {
+      "fact_id": "EDITORIAL-scene_10",
+      "statement": "Editorially protected scene 'The confession' (tags: ['spoiler', 'twist'])",
+      "source": "editorial_tag",
+      "protected_ranges": [
+        {
+          "ref": "scene:scene_10",
+          "scene_id": "scene_10",
+          "start": "00:12:00.000",
+          "end": "00:13:30.000"
+        }
+      ],
+      "text_keywords": [],
+      "forbidden_sequences": []
+    },
+    {
+      "fact_id": "EDITORIAL-scene_11",
+      "statement": "Editorially protected scene 'Monsoon morning' (tags: ['ending'])",
+      "source": "editorial_tag",
+      "protected_ranges": [
+        {
+          "ref": "scene:scene_11",
+          "scene_id": "scene_11",
+          "start": "00:13:30.000",
+          "end": "00:14:30.000"
+        }
+      ],
+      "text_keywords": [],
+      "forbidden_sequences": []
+    }
+  ],
+  "rejected_model_facts": []
+}

@@ -1,0 +1,29 @@
+{
+  "markets": {
+    "national": "National release across all regions",
+    "region_east": "Dialect-region campaign (eastern regional market)"
+  },
+  "music": [
+    {"track_id": "music-01", "title": "Somber Strings", "kind": "score", "cleared_for_promos": true,
+     "territories": ["national", "region_east"], "expires": "2027-06-30", "moods": ["melancholic", "warm"]},
+    {"track_id": "music-02", "title": "Tense Beats", "kind": "score", "cleared_for_promos": true,
+     "territories": ["national", "region_east"], "expires": "2026-12-31", "moods": ["tense", "driving"]},
+    {"track_id": "music-03", "title": "Pop Hit", "kind": "licensed_song", "cleared_for_promos": false,
+     "territories": ["national"], "expires": "2026-12-31", "moods": ["upbeat"],
+     "note": "Licensed for in-episode use only. No promotional use."},
+    {"track_id": "music-04", "title": "Monsoon Theme", "kind": "score", "cleared_for_promos": true,
+     "territories": ["national"], "expires": "2027-12-31", "moods": ["hopeful", "warm"]},
+    {"track_id": "music-05", "title": "Courtyard Folk Strings", "kind": "score", "cleared_for_promos": true,
+     "territories": ["national", "region_east"], "expires": "2027-12-31", "moods": ["warm", "rooted", "hopeful"],
+     "note": "Recorded for the series with musicians from the region."}
+  ],
+  "actors": [
+    {"actor_id": "act-01", "plays": "amar", "promo_video": true, "promo_voice": true, "territories": ["national", "region_east"], "minor": false},
+    {"actor_id": "act-02", "plays": "bebe", "promo_video": true, "promo_voice": true, "territories": ["national", "region_east"], "minor": false},
+    {"actor_id": "act-03", "plays": "dadi", "promo_video": true, "promo_voice": true, "territories": ["national", "region_east"], "minor": false},
+    {"actor_id": "act-04", "plays": "munshi", "promo_video": true, "promo_voice": false, "territories": ["national"], "minor": false,
+     "note": "Voice not cleared for promotional use. Likeness not cleared in region_east."},
+    {"actor_id": "act-05", "plays": "rinku", "promo_video": true, "promo_voice": true, "territories": ["national", "region_east"], "minor": true,
+     "note": "Minor. Guardian consent on file for promos; each use needs legal sign-off."}
+  ]
+}

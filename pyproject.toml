@@ -1,0 +1,24 @@
+[project]
+name = "trailer-director"
+version = "1.0.0"
+description = "Plans audience-specific trailer edit decision lists and verifies them against story, safety, cultural and rights constraints."
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.0"]
+
+[project.optional-dependencies]
+live = ["anthropic", "openai"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+trailer-director = "trailer_director.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

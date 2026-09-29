@@ -1,0 +1,687 @@
+{
+  "trailer_id": "family_v1",
+  "version": 1,
+  "audience": "Family viewers",
+  "audience_id": "family",
+  "market": "national",
+  "objective": "Drive plays among family viewers by highlighting warmth, gentle stakes, and shared fun—without spoilers or scares.",
+  "audience_promise": "A cozy, multi-generational story with humor and light mystery the whole family can watch together.",
+  "emotional_journey": [
+    "Curiosity",
+    "Welcome and belonging",
+    "Family humor",
+    "Anticipation and gentle stakes",
+    "Brief tension",
+    "Joyful togetherness"
+  ],
+  "target_duration_seconds": [
+    30,
+    50
+  ],
+  "duration_seconds": 36.1,
+  "music_plan": {
+    "bed_track": "music-01",
+    "reason": "A warm, hopeful cue that supports family tone and light mystery without adding intensity; it blends smoothly under dialogue."
+  },
+  "insights_used": [
+    "fam-1",
+    "fam-2"
+  ],
+  "alternate_text_cards": [
+    {
+      "text": "A story for every generation",
+      "seconds": 2.5
+    },
+    {
+      "text": "Family, laughter, and a little mystery",
+      "seconds": 2.5
+    },
+    {
+      "text": "Make it a family night",
+      "seconds": 2.5
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "family_s01",
+      "order": 1,
+      "beat": "Establish the family home",
+      "video": "scene_01",
+      "source_ref": "moment:m01b",
+      "source_in": "00:00:31.000",
+      "source_out": "00:00:33.500",
+      "duration_seconds": 2.5,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "crossfade",
+      "reason": "Opens with the haveli’s identity to cue heritage and home, setting a warm tone (fam-1).",
+      "evidence": [
+        "scene:scene_01",
+        "moment:m01b",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "audience:family",
+        "market:national",
+        "moment:m01b",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_01"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s02",
+      "order": 2,
+      "beat": "Arrival and anticipation",
+      "video": "scene_02",
+      "source_ref": "moment:m02a",
+      "source_in": "00:01:18.000",
+      "source_out": "00:01:20.500",
+      "duration_seconds": 2.5,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Signals return and expectation, priming viewers for reunion warmth (fam-1).",
+      "evidence": [
+        "scene:scene_02",
+        "moment:m02a",
+        "contract:act-01",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:family",
+        "market:national",
+        "moment:m02a",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s03",
+      "order": 3,
+      "beat": "Playful welcome",
+      "video": "scene_02",
+      "source_ref": "line:d02_1",
+      "source_in": "00:01:32.150",
+      "source_out": "00:01:35.450",
+      "duration_seconds": 3.3,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d02_1",
+          "speaker": "rinku",
+          "text": "You're slower than the postman, Amar Mama!"
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "You're slower than the postman, Amar Mama!",
+        "cues": [
+          {
+            "line_id": "d02_1",
+            "start": "00:01:32.400",
+            "end": "00:01:35.100",
+            "text": "You're slower than the postman, Amar Mama!"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Child-led humor softens the entry, boosting family appeal (fam-1).",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_1",
+        "cue:source:d02_1",
+        "contract:act-05",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-05",
+        "audience:family",
+        "cue:source:d02_1",
+        "line:d02_1",
+        "market:national",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s04",
+      "order": 4,
+      "beat": "Home has been waiting",
+      "video": "scene_02",
+      "source_ref": "line:d02_3",
+      "source_in": "00:02:04.750",
+      "source_out": "00:02:08.850",
+      "duration_seconds": 4.1,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d02_3",
+          "speaker": "dadi",
+          "text": "Come inside, beta. This house has been waiting for you."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "Come inside, beta. This house has been waiting for you.",
+        "cues": [
+          {
+            "line_id": "d02_3",
+            "start": "00:02:05.000",
+            "end": "00:02:08.500",
+            "text": "Come inside, beta. This house has been waiting for you."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "dissolve",
+      "reason": "Dadi’s embrace and line deliver emotional warmth and belonging (fam-1).",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_3",
+        "cue:source:d02_3",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:family",
+        "cue:source:d02_3",
+        "line:d02_3",
+        "market:national",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s05",
+      "order": 5,
+      "beat": "Meal-time togetherness",
+      "video": "scene_03",
+      "source_ref": "moment:m03a",
+      "source_in": "00:02:44.000",
+      "source_out": "00:02:46.500",
+      "duration_seconds": 2.5,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Shared food imagery underlines togetherness and comfort (fam-1).",
+      "evidence": [
+        "scene:scene_03",
+        "moment:m03a",
+        "contract:act-02",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-02",
+        "actor:act-03",
+        "audience:family",
+        "market:national",
+        "moment:m03a",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_03"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s06",
+      "order": 6,
+      "beat": "Light humor from Dadi",
+      "video": "scene_03",
+      "source_ref": "line:d03_1",
+      "source_in": "00:02:52.000",
+      "source_out": "00:02:56.000",
+      "duration_seconds": 4.0,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d03_1",
+          "speaker": "dadi",
+          "text": "In the city they feed you air and call it dinner."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "In the city they feed you air and call it dinner.",
+        "cues": [
+          {
+            "line_id": "d03_1",
+            "start": "00:02:52.000",
+            "end": "00:02:56.800",
+            "text": "In the city they feed you air and call it dinner."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "A gentle tease keeps tone friendly and fun for broad audiences (fam-1).",
+      "evidence": [
+        "scene:scene_03",
+        "line:d03_1",
+        "cue:source:d03_1",
+        "contract:act-03",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:family",
+        "cue:source:d03_1",
+        "line:d03_1",
+        "market:national",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_03"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s07",
+      "order": 7,
+      "beat": "A gentle hook: tomorrow’s will",
+      "video": "scene_02",
+      "source_ref": "moment:m02b",
+      "source_in": "00:01:40.000",
+      "source_out": "00:01:45.000",
+      "duration_seconds": 5.0,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "dip_to_black",
+      "reason": "Rinku and Amar race to the gate, laughing. Best-scoring clip for the 'A gentle hook: tomorrow’s will' beat that passes every check (matches ['family', 'humour', 'warmth']).",
+      "evidence": [
+        "scene:scene_02",
+        "moment:m02b",
+        "contract:act-01",
+        "contract:act-05",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "actor:act-05",
+        "audience:family",
+        "market:national",
+        "moment:m02b",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s08",
+      "order": 8,
+      "beat": "A truthful sting",
+      "video": "scene_04",
+      "source_ref": "line:d04_3",
+      "source_in": "00:04:39.750",
+      "source_out": "00:04:44.850",
+      "duration_seconds": 5.1,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d04_3",
+          "speaker": "bebe",
+          "text": "You left, Amar. Some of us had to stay."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "You left, Amar. Some of us had to stay.",
+        "cues": [
+          {
+            "line_id": "d04_3",
+            "start": "00:04:40.000",
+            "end": "00:04:44.500",
+            "text": "You left, Amar. Some of us had to stay."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "cut",
+      "reason": "Brief, relatable tension hints at real family stakes while staying age-appropriate (fam-1, fam-2).",
+      "evidence": [
+        "scene:scene_04",
+        "line:d04_3",
+        "cue:source:d04_3",
+        "contract:act-02",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-02",
+        "audience:family",
+        "cue:source:d04_3",
+        "line:d04_3",
+        "market:national",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_04"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s09",
+      "order": 9,
+      "beat": "Game on: humor returns",
+      "video": "scene_06",
+      "source_ref": "line:d06_2",
+      "source_in": "00:07:05.750",
+      "source_out": "00:07:09.350",
+      "duration_seconds": 3.6,
+      "audio": "dialogue_and_music",
+      "music": "music-01",
+      "dialogue": [
+        {
+          "line_id": "d06_2",
+          "speaker": "amar",
+          "text": "Best of three. The bus ride ruined my wrists."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "Best of three. The bus ride ruined my wrists.",
+        "cues": [
+          {
+            "line_id": "d06_2",
+            "start": "00:07:06.000",
+            "end": "00:07:09.000",
+            "text": "Best of three. The bus ride ruined my wrists."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "match_cut",
+      "reason": "Competitive banter resets tone to playful warmth, broadening appeal (fam-1).",
+      "evidence": [
+        "scene:scene_06",
+        "line:d06_2",
+        "cue:source:d06_2",
+        "contract:act-01",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:family",
+        "cue:source:d06_2",
+        "line:d06_2",
+        "market:national",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_06"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_s10",
+      "order": 10,
+      "beat": "Joyful payoff",
+      "video": "scene_06",
+      "source_ref": "moment:m06b",
+      "source_in": "00:07:10.000",
+      "source_out": "00:07:13.500",
+      "duration_seconds": 3.5,
+      "audio": "music_only",
+      "music": "music-01",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "Come home together",
+        "seconds": 2.5
+      },
+      "transition": "dissolve",
+      "reason": "Celebratory moment with Dadi laughing delivers a warm, shareable close (fam-1).",
+      "evidence": [
+        "scene:scene_06",
+        "moment:m06b",
+        "contract:act-03",
+        "contract:act-05",
+        "contract:music-01"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "actor:act-05",
+        "audience:family",
+        "market:national",
+        "moment:m06b",
+        "music:music-01",
+        "policy:family",
+        "scene:scene_06"
+      ],
+      "risk_flags": []
+    }
+  ],
+  "planning_source": {
+    "proposal": "model",
+    "model": "gpt-5",
+    "mode": "live",
+    "usd": 0.072316,
+    "input_tokens": 6165,
+    "output_tokens": 6461
+  },
+  "repair_history": [
+    {
+      "round": 1,
+      "action": "replace_clip",
+      "segment_id": "family_s07",
+      "because": [
+        "RGT-003: munshi's voice (act-04) is not cleared for promos (line d03_3)"
+      ],
+      "from": {
+        "video": "scene_03",
+        "source_ref": "line:d03_3",
+        "source_in": "00:03:30.000",
+        "source_out": "00:03:34.500",
+        "audio": "dialogue_and_music",
+        "music": "music-01",
+        "subtitle_track": "source",
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_02",
+        "source_ref": "moment:m02b",
+        "source_in": "00:01:40.000",
+        "source_out": "00:01:45.000",
+        "audio": "music_only",
+        "music": "music-01",
+        "subtitle_track": null,
+        "text_card": null
+      },
+      "replacement_reason": "Rinku and Amar race to the gate, laughing. Best-scoring clip for the 'A gentle hook: tomorrow’s will' beat that passes every check (matches ['family', 'humour', 'warmth'])."
+    }
+  ],
+  "revisions": [],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "errors": [],
+    "warnings": [
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "family_s03",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "family_s06",
+        "message": "Clip cuts line 'd03_1' mid-delivery"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "family_s07",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "family_s08",
+        "message": "scene_04 carries 'conflict'; needs standards review for Family viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "family_s08",
+        "message": "scene_04 carries 'tense'; needs standards review for Family viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "family_s10",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      }
+    ],
+    "checks_run": [
+      "ACC-001",
+      "ACC-002",
+      "ACC-003",
+      "ACC-004",
+      "AUD-001",
+      "BUD-001",
+      "CRE-001",
+      "CRE-002",
+      "DESC-001",
+      "DIA-001",
+      "DIA-002",
+      "DIA-003",
+      "DIA-004",
+      "PER-001",
+      "RAT-001",
+      "RAT-002",
+      "RAT-003",
+      "RGT-001",
+      "RGT-002",
+      "RGT-003",
+      "RGT-004",
+      "SEC-001",
+      "SPL-001",
+      "SPL-002",
+      "SPL-003",
+      "SPL-004",
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "TIM-001",
+      "TIM-002",
+      "TIM-003",
+      "TIM-004",
+      "TRU-001",
+      "TRU-002",
+      "TRU-003"
+    ]
+  },
+  "ready_for_editor": true,
+  "human_approvals_required": [
+    {
+      "approval": "legal: minor in promo",
+      "owner": "legal",
+      "reasons": [
+        "rinku is a minor; promo use needs legal sign-off"
+      ],
+      "segments": [
+        "family_s03",
+        "family_s07",
+        "family_s10"
+      ]
+    },
+    {
+      "approval": "standards review",
+      "owner": "editorial",
+      "reasons": [
+        "scene_04 carries 'conflict'; needs standards review for Family viewers",
+        "scene_04 carries 'tense'; needs standards review for Family viewers"
+      ],
+      "segments": [
+        "family_s08"
+      ]
+    },
+    {
+      "approval": "editorial: final pacing, music edit and emotional read",
+      "owner": "editorial",
+      "reasons": [
+        "Automated checks cannot judge rhythm, performance or whether the cut feels right."
+      ],
+      "segments": []
+    }
+  ],
+  "assumptions": [
+    "On-screen presence is inferred from shot and dialogue metadata; with no metadata the whole scene cast is assumed present.",
+    "Scene tags and human descriptions are authoritative; AI descriptions only ever add caution, never remove it.",
+    "Rights expiry is checked against the configured campaign window, not just the plan date.",
+    "Historic engagement scores are hypotheses from earlier campaigns and only break ties between compliant clips.",
+    "Dialogue and music stems are available, so 'dialogue_and_music' replaces any source music in the original mix."
+  ],
+  "cost": {
+    "estimated_usd": 0.144391,
+    "breakdown": {
+      "this_trailer_usd": 0.120449,
+      "shared_story_analysis_usd": 0.023942,
+      "model_calls": [
+        {
+          "task": "propose_trailer:family",
+          "model": "gpt-5",
+          "input_tokens": 6165,
+          "output_tokens": 6461,
+          "usd": 0.072316
+        }
+      ],
+      "keyframe_spot_check": true
+    },
+    "budget_exceeded": false,
+    "lower_cost_fallback": [
+      {
+        "strategy": "Proposal from claude-sonnet-5-5 instead of the preferred model; same verifier and repair",
+        "estimated_usd": 0.100882,
+        "tradeoff": "Somewhat weaker creative drafts; the verifier guarantees the same safety floor."
+      },
+      {
+        "strategy": "Deterministic template planner (no model call), cached story map, no keyframe spot-check",
+        "estimated_usd": 0.0,
+        "tradeoff": "Formulaic beat order and generic promise; description/footage mismatches go straight to a human."
+      }
+    ]
+  }
+}

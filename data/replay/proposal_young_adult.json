@@ -1,0 +1,33 @@
+{
+  "_replay_note": "Recorded response for task 'propose_trailer:young_adult'. Untrusted creative draft: leans on the historically best-performing scene (the twist), invents a scene that does not exist, uses an uncleared voice and an uncleared song, and cites a policy-conflicting insight.",
+  "objective": "Sell pace, humour and cousin-versus-cousin friction to young adult viewers.",
+  "audience_promise": "One inheritance. Two cousins. Nobody is telling the whole truth.",
+  "emotional_journey": ["banter", "suspicion", "collision", "unanswered question"],
+  "music_bed": "music-02",
+  "music_reason": "Driving percussion matches fast cuts.",
+  "insights_used": ["ya-1", "ya-2"],
+  "alternate_text_cards": [{"text": "Family. It's complicated.", "seconds": 2.5}],
+  "segments": [
+    {"beat": "hook", "source_ref": "line:d06_1", "video": "scene_06", "source_in": "00:07:01.750", "source_out": "00:07:05.650",
+     "audio": "original_mix", "transition": "smash cut", "reason": "Rinku's trash talk is an instant comic hook about city vs village identity."},
+    {"beat": "setup", "source_ref": "line:d06_2", "video": "scene_06", "source_in": "00:07:05.750", "source_out": "00:07:09.350",
+     "audio": "dialogue_and_music", "transition": "cut", "reason": "Amar's comeback keeps the banter going."},
+    {"beat": "conflict", "source_ref": "line:d04_1", "video": "scene_04", "source_in": "00:04:12.050", "source_out": "00:04:16.250",
+     "audio": "dialogue_and_music", "transition": "hard cut", "reason": "The accusation that starts the cousins' conflict."},
+    {"beat": "conflict", "source_ref": "line:d04_2", "video": "scene_04", "source_in": "00:04:16.300", "source_out": "00:04:19.550",
+     "audio": "dialogue_and_music", "transition": "cut", "reason": "Bebe's deflection keeps the conflict unresolved."},
+    {"beat": "tease", "source_ref": "moment:m07b", "video": "scene_07", "source_in": "00:08:40.000", "source_out": "00:08:45.000",
+     "audio": "music_only", "transition": "whip pan", "reason": "The hidden panel promises a mystery."},
+    {"beat": "conflict", "source_ref": "line:d09_2", "video": "scene_09", "source_in": "00:11:14.750", "source_out": "00:11:18.750",
+     "audio": "dialogue_and_music", "transition": "cut", "reason": "Amar's forgery accusation is the loudest beat."},
+    {"beat": "conflict", "source_ref": "line:d09_3", "video": "scene_09", "source_in": "00:11:19.750", "source_out": "00:11:23.350",
+     "audio": "dialogue_and_music", "transition": "cut", "reason": "Munshi-ji's rebuttal escalates the stand-off."},
+    {"beat": "climax", "source_ref": "line:d10_1", "video": "scene_10", "source_in": "00:12:19.750", "source_out": "00:12:24.350",
+     "audio": "dialogue_and_music", "transition": "cut", "reason": "Highest historic engagement score of any scene (0.95); twist teasers had the best share rate."},
+    {"beat": "climax", "source_ref": "scene:scene_14", "video": "scene_14", "source_in": "00:15:10.000", "source_out": "00:15:14.000",
+     "audio": "music_only", "transition": "cut", "reason": "The rooftop chase is the most powerful action beat in the episode."},
+    {"beat": "button", "source_ref": "line:d04_3", "video": "scene_04", "source_in": "00:04:39.750", "source_out": "00:04:44.850",
+     "audio": "dialogue_and_music", "transition": "cut to title", "text_card": {"text": "Nothing is what it seems.", "seconds": 2.5},
+     "reason": "Bebe's line lands the identity theme: who left, who stayed."}
+  ]
+}

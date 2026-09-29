@@ -1,0 +1,888 @@
+{
+  "trailer_id": "young_adult_v1",
+  "version": 1,
+  "audience": "Young adult viewers",
+  "audience_id": "young_adult",
+  "market": "national",
+  "objective": "Deliver a fast, funny, and high-stakes family teaser that spotlights humour, identity, and escalating conflict without revealing the central twist.",
+  "audience_promise": "A pacey, witty return home where cricket, cousins, and a contested legacy collide—no spoilers, just reasons to hit play.",
+  "emotional_journey": [
+    "Return and recognition",
+    "Playful banter",
+    "Warm belonging",
+    "Competitive spark",
+    "Rising friction",
+    "Public stakes",
+    "Mystery hook"
+  ],
+  "target_duration_seconds": [
+    25,
+    45
+  ],
+  "duration_seconds": 29.1,
+  "music_plan": {
+    "bed_track": "music-05",
+    "reason": "A driving, upbeat bed that carries quick banter into rising family conflict, matching the young-adult pace without overselling intensity."
+  },
+  "insights_used": [
+    "ya-2"
+  ],
+  "alternate_text_cards": [
+    {
+      "text": "Home isn't simple.",
+      "seconds": 2.0
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "young_adult_s01",
+      "order": 1,
+      "beat": "Set the house and stakes",
+      "video": "scene_01",
+      "source_ref": "moment:m01b",
+      "source_in": "00:00:31.000",
+      "source_out": "00:00:33.000",
+      "duration_seconds": 2.0,
+      "audio": "music_only",
+      "music": "music-05",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "Pick a side—if you can.",
+        "seconds": 2.0
+      },
+      "transition": "hard_cut",
+      "reason": "Quick identity anchor with the nameplate primes the family legacy theme.",
+      "evidence": [
+        "scene:scene_01",
+        "moment:m01b",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "audience:young_adult",
+        "market:national",
+        "moment:m01b",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_01"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s02",
+      "order": 2,
+      "beat": "Humour hits fast",
+      "video": "scene_02",
+      "source_ref": "line:d02_1",
+      "source_in": "00:01:32.150",
+      "source_out": "00:01:35.000",
+      "duration_seconds": 2.85,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d02_1",
+          "speaker": "rinku",
+          "text": "You're slower than the postman, Amar Mama!"
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "You're slower than the postman, Amar Mama!",
+        "cues": [
+          {
+            "line_id": "d02_1",
+            "start": "00:01:32.400",
+            "end": "00:01:35.100",
+            "text": "You're slower than the postman, Amar Mama!"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "straight_cut",
+      "reason": "Rinku’s playful jab signals YA-friendly humour and pace.",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_1",
+        "cue:source:d02_1",
+        "contract:act-05",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-05",
+        "audience:young_adult",
+        "cue:source:d02_1",
+        "line:d02_1",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s03",
+      "order": 3,
+      "beat": "Banter with bite",
+      "video": "scene_02",
+      "source_ref": "line:d02_2",
+      "source_in": "00:01:35.350",
+      "source_out": "00:01:38.200",
+      "duration_seconds": 2.85,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d02_2",
+          "speaker": "amar",
+          "text": "The postman doesn't carry your presents."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "The postman doesn't carry your presents.",
+        "cues": [
+          {
+            "line_id": "d02_2",
+            "start": "00:01:35.600",
+            "end": "00:01:38.200",
+            "text": "The postman doesn't carry your presents."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "hard_cut",
+      "reason": "Amar’s comeback builds chemistry and keeps momentum.",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_2",
+        "cue:source:d02_2",
+        "contract:act-01",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:young_adult",
+        "cue:source:d02_2",
+        "line:d02_2",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s04",
+      "order": 4,
+      "beat": "Belonging lands",
+      "video": "scene_02",
+      "source_ref": "line:d02_3",
+      "source_in": "00:02:04.900",
+      "source_out": "00:02:08.300",
+      "duration_seconds": 3.4,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d02_3",
+          "speaker": "dadi",
+          "text": "Come inside, beta. This house has been waiting for you."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "Come inside, beta. This house has been waiting for you.",
+        "cues": [
+          {
+            "line_id": "d02_3",
+            "start": "00:02:05.000",
+            "end": "00:02:08.500",
+            "text": "Come inside, beta. This house has been waiting for you."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "whip_cut",
+      "reason": "Dadi’s warmth grounds identity before conflict spikes.",
+      "evidence": [
+        "scene:scene_02",
+        "line:d02_3",
+        "cue:source:d02_3",
+        "contract:act-03",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "audience:young_adult",
+        "cue:source:d02_3",
+        "line:d02_3",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s05",
+      "order": 5,
+      "beat": "Youth energy, identity",
+      "video": "scene_06",
+      "source_ref": "moment:m06a",
+      "source_in": "00:06:51.000",
+      "source_out": "00:06:53.000",
+      "duration_seconds": 2.0,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": null,
+      "transition": "match_cut",
+      "reason": "Courtyard cricket adds cultural texture and kinetic pace.",
+      "evidence": [
+        "scene:scene_06",
+        "moment:m06a",
+        "contract:act-01",
+        "contract:act-05",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "actor:act-05",
+        "audience:young_adult",
+        "market:national",
+        "moment:m06a",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_06"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s06",
+      "order": 6,
+      "beat": "Family joy, then pivot",
+      "video": "scene_06",
+      "source_ref": "moment:m06b",
+      "source_in": "00:07:10.200",
+      "source_out": "00:07:12.700",
+      "duration_seconds": 2.5,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "Family. Fortune. Fallout.",
+        "seconds": 2.1
+      },
+      "transition": "smash_cut",
+      "reason": "Laughter peaks just before we turn to rivalry—clean tonal pivot.",
+      "evidence": [
+        "scene:scene_06",
+        "moment:m06b",
+        "contract:act-03",
+        "contract:act-05",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-03",
+        "actor:act-05",
+        "audience:young_adult",
+        "market:national",
+        "moment:m06b",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_06"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s07",
+      "order": 7,
+      "beat": "Tension breaks through",
+      "video": "scene_04",
+      "source_ref": "line:d04_2",
+      "source_in": "00:04:16.150",
+      "source_out": "00:04:19.550",
+      "duration_seconds": 3.4,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d04_2",
+          "speaker": "bebe",
+          "text": "Keep your voice down. The walls have ears."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "Keep your voice down. The walls have ears.",
+        "cues": [
+          {
+            "line_id": "d04_2",
+            "start": "00:04:16.400",
+            "end": "00:04:19.200",
+            "text": "Keep your voice down. The walls have ears."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "hard_cut",
+      "reason": "'Keep your voice down. The walls have ears.' (bebe). Best-scoring clip for the 'Tension breaks through' beat that passes every check (matches ['conflict', 'dialogue-heavy', 'tense']).",
+      "evidence": [
+        "scene:scene_04",
+        "line:d04_2",
+        "cue:source:d04_2",
+        "contract:act-02",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-02",
+        "audience:young_adult",
+        "cue:source:d04_2",
+        "line:d04_2",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_04"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s08",
+      "order": 8,
+      "beat": "Stakes defined",
+      "video": "scene_04",
+      "source_ref": "line:d04_3",
+      "source_in": "00:04:39.750",
+      "source_out": "00:04:44.850",
+      "duration_seconds": 5.1,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d04_3",
+          "speaker": "bebe",
+          "text": "You left, Amar. Some of us had to stay."
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "You left, Amar. Some of us had to stay.",
+        "cues": [
+          {
+            "line_id": "d04_3",
+            "start": "00:04:40.000",
+            "end": "00:04:44.500",
+            "text": "You left, Amar. Some of us had to stay."
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "hard_cut",
+      "reason": "'You left, Amar. Some of us had to stay.' (bebe). Best-scoring clip for the 'Stakes defined' beat that passes every check (matches ['conflict', 'dialogue-heavy', 'tense']).",
+      "evidence": [
+        "scene:scene_04",
+        "line:d04_3",
+        "cue:source:d04_3",
+        "contract:act-02",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-02",
+        "audience:young_adult",
+        "cue:source:d04_3",
+        "line:d04_3",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_04"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s09",
+      "order": 9,
+      "beat": "Accusation hits",
+      "video": "scene_09",
+      "source_ref": "line:d09_2",
+      "source_in": "00:11:15.000",
+      "source_out": "00:11:17.800",
+      "duration_seconds": 2.8,
+      "audio": "dialogue_and_music",
+      "music": "music-05",
+      "dialogue": [
+        {
+          "line_id": "d09_2",
+          "speaker": "amar",
+          "text": "This is a forgery, and you know it!"
+        }
+      ],
+      "subtitle": {
+        "track": "source",
+        "text": "This is a forgery, and you know it!",
+        "cues": [
+          {
+            "line_id": "d09_2",
+            "start": "00:11:15.000",
+            "end": "00:11:18.400",
+            "text": "This is a forgery, and you know it!"
+          }
+        ]
+      },
+      "voice_over": null,
+      "text_card": null,
+      "transition": "smash_cut",
+      "reason": "Sharp escalation delivers conflict energy while keeping mystery intact.",
+      "evidence": [
+        "scene:scene_09",
+        "line:d09_2",
+        "cue:source:d09_2",
+        "contract:act-01",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:young_adult",
+        "cue:source:d09_2",
+        "line:d09_2",
+        "market:national",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_09"
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_s10",
+      "order": 10,
+      "beat": "Mystery tease, no reveal",
+      "video": "scene_07",
+      "source_ref": "moment:m07b",
+      "source_in": "00:08:40.200",
+      "source_out": "00:08:42.400",
+      "duration_seconds": 2.2,
+      "audio": "music_only",
+      "music": "music-05",
+      "dialogue": [],
+      "subtitle": null,
+      "voice_over": null,
+      "text_card": {
+        "text": "Whose home is it, anyway?",
+        "seconds": 2.1
+      },
+      "transition": "fade_out",
+      "reason": "Hidden panel provides a hook without touching the central twist.",
+      "evidence": [
+        "scene:scene_07",
+        "moment:m07b",
+        "contract:act-01",
+        "contract:music-05"
+      ],
+      "depends_on": [
+        "actor:act-01",
+        "audience:young_adult",
+        "market:national",
+        "moment:m07b",
+        "music:music-05",
+        "policy:young_adult",
+        "scene:scene_07"
+      ],
+      "risk_flags": []
+    }
+  ],
+  "planning_source": {
+    "proposal": "model",
+    "model": "gpt-5",
+    "mode": "live",
+    "usd": 0.066795,
+    "input_tokens": 6116,
+    "output_tokens": 5915
+  },
+  "repair_history": [
+    {
+      "round": 1,
+      "action": "replace_text_card",
+      "segment_id": "young_adult_s01",
+      "because": [
+        "ACC-003: Text card needs 3.92s to read, has 2.0s"
+      ],
+      "from": "Singh Niwas: where coming home gets complicated",
+      "to": "Pick a side—if you can."
+    },
+    {
+      "round": 1,
+      "action": "use_dialogue_stem",
+      "segment_id": "young_adult_s05",
+      "because": [
+        "RGT-001: Original mix of scene_06 carries source music: music-03 ('Pop Hit') is not cleared for promotional use"
+      ],
+      "from": {
+        "video": "scene_06",
+        "source_ref": "moment:m06a",
+        "source_in": "00:06:51.000",
+        "source_out": "00:06:53.000",
+        "audio": "original_mix",
+        "music": null,
+        "subtitle_track": null,
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_06",
+        "source_ref": "moment:m06a",
+        "source_in": "00:06:51.000",
+        "source_out": "00:06:53.000",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": null,
+        "text_card": null
+      }
+    },
+    {
+      "round": 1,
+      "action": "use_dialogue_stem",
+      "segment_id": "young_adult_s06",
+      "because": [
+        "RGT-001: Original mix of scene_06 carries source music: music-03 ('Pop Hit') is not cleared for promotional use"
+      ],
+      "from": {
+        "video": "scene_06",
+        "source_ref": "moment:m06b",
+        "source_in": "00:07:10.200",
+        "source_out": "00:07:12.700",
+        "audio": "original_mix",
+        "music": null,
+        "subtitle_track": null,
+        "text_card": "Humour. Heritage. Head-to-head."
+      },
+      "to": {
+        "video": "scene_06",
+        "source_ref": "moment:m06b",
+        "source_in": "00:07:10.200",
+        "source_out": "00:07:12.700",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": null,
+        "text_card": "Humour. Heritage. Head-to-head."
+      }
+    },
+    {
+      "round": 1,
+      "action": "replace_text_card",
+      "segment_id": "young_adult_s06",
+      "because": [
+        "ACC-003: Text card needs 2.58s to read, has 2.0s"
+      ],
+      "from": "Humour. Heritage. Head-to-head.",
+      "to": "Family. Fortune. Fallout."
+    },
+    {
+      "round": 1,
+      "action": "replace_clip",
+      "segment_id": "young_adult_s07",
+      "because": [
+        "SPL-001: Clip shows protected fact pf02 (The trust planned to sell the house and send Dadi away.) via line:d04_1"
+      ],
+      "from": {
+        "video": "scene_04",
+        "source_ref": "line:d04_1",
+        "source_in": "00:04:12.300",
+        "source_out": "00:04:14.800",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": "source",
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_04",
+        "source_ref": "line:d04_2",
+        "source_in": "00:04:16.150",
+        "source_out": "00:04:19.550",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": "source",
+        "text_card": null
+      },
+      "replacement_reason": "'Keep your voice down. The walls have ears.' (bebe). Best-scoring clip for the 'Tension breaks through' beat that passes every check (matches ['conflict', 'dialogue-heavy', 'tense'])."
+    },
+    {
+      "round": 1,
+      "action": "replace_clip",
+      "segment_id": "young_adult_s08",
+      "because": [
+        "SPL-001: Clip shows protected fact pf02 (The trust planned to sell the house and send Dadi away.) via line:d09_1",
+        "RGT-003: munshi's voice (act-04) is not cleared for promos (line d09_1)"
+      ],
+      "from": {
+        "video": "scene_09",
+        "source_ref": "line:d09_1",
+        "source_in": "00:10:55.000",
+        "source_out": "00:10:58.000",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": "source",
+        "text_card": null
+      },
+      "to": {
+        "video": "scene_04",
+        "source_ref": "line:d04_3",
+        "source_in": "00:04:39.750",
+        "source_out": "00:04:44.850",
+        "audio": "dialogue_and_music",
+        "music": "music-05",
+        "subtitle_track": "source",
+        "text_card": null
+      },
+      "replacement_reason": "'You left, Amar. Some of us had to stay.' (bebe). Best-scoring clip for the 'Stakes defined' beat that passes every check (matches ['conflict', 'dialogue-heavy', 'tense'])."
+    },
+    {
+      "round": 1,
+      "action": "extend_card",
+      "segment_id": "young_adult_s10",
+      "because": [
+        "ACC-003: Text card needs 2.08s to read, has 2.0s"
+      ],
+      "from": 2.0,
+      "to": 2.1
+    }
+  ],
+  "revisions": [],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "errors": [],
+    "warnings": [
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s02",
+        "message": "Clip cuts line 'd02_1' mid-delivery"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s02",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s04",
+        "message": "Clip cuts line 'd02_3' mid-delivery"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s05",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "RGT-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s06",
+        "message": "rinku is a minor; promo use needs legal sign-off",
+        "approval": "legal: minor in promo"
+      },
+      {
+        "check_id": "TIM-004",
+        "severity": "warning",
+        "segment_id": "young_adult_s09",
+        "message": "Clip cuts line 'd09_2' mid-delivery"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "young_adult_s09",
+        "message": "scene_09 carries 'intense'; needs standards review for Young adult viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "RAT-002",
+        "severity": "warning",
+        "segment_id": "young_adult_s10",
+        "message": "scene_07 carries 'intense'; needs standards review for Young adult viewers",
+        "approval": "standards review"
+      },
+      {
+        "check_id": "SEC-001",
+        "severity": "warning",
+        "segment_id": "young_adult_s10",
+        "message": "scene_07 metadata contains instruction-like text; it was ignored, but the source metadata should be reviewed",
+        "approval": "security/metadata review"
+      },
+      {
+        "check_id": "DESC-001",
+        "severity": "warning",
+        "segment_id": "young_adult_s10",
+        "message": "Human and AI descriptions of scene_07 disagree on ['blood', 'blood-stained']; verify the footage",
+        "approval": "editorial: verify footage"
+      },
+      {
+        "check_id": "CRE-002",
+        "severity": "warning",
+        "segment_id": null,
+        "message": "Music bed music-05 (['warm', 'rooted', 'hopeful']) does not match the audience's intended moods ['driving', 'tense', 'upbeat']; no cleared track does",
+        "approval": "editorial: music selection"
+      }
+    ],
+    "checks_run": [
+      "ACC-001",
+      "ACC-002",
+      "ACC-003",
+      "ACC-004",
+      "AUD-001",
+      "BUD-001",
+      "CRE-001",
+      "CRE-002",
+      "DESC-001",
+      "DIA-001",
+      "DIA-002",
+      "DIA-003",
+      "DIA-004",
+      "PER-001",
+      "RAT-001",
+      "RAT-002",
+      "RAT-003",
+      "RGT-001",
+      "RGT-002",
+      "RGT-003",
+      "RGT-004",
+      "SEC-001",
+      "SPL-001",
+      "SPL-002",
+      "SPL-003",
+      "SPL-004",
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-004",
+      "SRC-005",
+      "SRC-006",
+      "TIM-001",
+      "TIM-002",
+      "TIM-003",
+      "TIM-004",
+      "TRU-001",
+      "TRU-002",
+      "TRU-003"
+    ]
+  },
+  "ready_for_editor": true,
+  "human_approvals_required": [
+    {
+      "approval": "legal: minor in promo",
+      "owner": "legal",
+      "reasons": [
+        "rinku is a minor; promo use needs legal sign-off"
+      ],
+      "segments": [
+        "young_adult_s02",
+        "young_adult_s05",
+        "young_adult_s06"
+      ]
+    },
+    {
+      "approval": "standards review",
+      "owner": "editorial",
+      "reasons": [
+        "scene_09 carries 'intense'; needs standards review for Young adult viewers",
+        "scene_07 carries 'intense'; needs standards review for Young adult viewers"
+      ],
+      "segments": [
+        "young_adult_s09",
+        "young_adult_s10"
+      ]
+    },
+    {
+      "approval": "security/metadata review",
+      "owner": "security",
+      "reasons": [
+        "scene_07 metadata contains instruction-like text; it was ignored, but the source metadata should be reviewed"
+      ],
+      "segments": [
+        "young_adult_s10"
+      ]
+    },
+    {
+      "approval": "editorial: verify footage",
+      "owner": "editorial",
+      "reasons": [
+        "Human and AI descriptions of scene_07 disagree on ['blood', 'blood-stained']; verify the footage"
+      ],
+      "segments": [
+        "young_adult_s10"
+      ]
+    },
+    {
+      "approval": "editorial: music selection",
+      "owner": "editorial",
+      "reasons": [
+        "Music bed music-05 (['warm', 'rooted', 'hopeful']) does not match the audience's intended moods ['driving', 'tense', 'upbeat']; no cleared track does"
+      ],
+      "segments": []
+    },
+    {
+      "approval": "editorial: final pacing, music edit and emotional read",
+      "owner": "editorial",
+      "reasons": [
+        "Automated checks cannot judge rhythm, performance or whether the cut feels right."
+      ],
+      "segments": []
+    },
+    {
+      "approval": "legal: confirm the rights clearances this plan relies on",
+      "owner": "legal",
+      "reasons": [
+        "Rights-driven repairs were made; legal should confirm the contract data is current."
+      ],
+      "segments": []
+    }
+  ],
+  "assumptions": [
+    "On-screen presence is inferred from shot and dialogue metadata; with no metadata the whole scene cast is assumed present.",
+    "Scene tags and human descriptions are authoritative; AI descriptions only ever add caution, never remove it.",
+    "Rights expiry is checked against the configured campaign window, not just the plan date.",
+    "Historic engagement scores are hypotheses from earlier campaigns and only break ties between compliant clips.",
+    "Dialogue and music stems are available, so 'dialogue_and_music' replaces any source music in the original mix."
+  ],
+  "cost": {
+    "estimated_usd": 0.129537,
+    "breakdown": {
+      "this_trailer_usd": 0.105595,
+      "shared_story_analysis_usd": 0.023942,
+      "model_calls": [
+        {
+          "task": "propose_trailer:young_adult",
+          "model": "gpt-5",
+          "input_tokens": 6116,
+          "output_tokens": 5915,
+          "usd": 0.066795
+        }
+      ],
+      "keyframe_spot_check": true
+    },
+    "budget_exceeded": false,
+    "lower_cost_fallback": [
+      {
+        "strategy": "Proposal from claude-sonnet-5-5 instead of the preferred model; same verifier and repair",
+        "estimated_usd": 0.095324,
+        "tradeoff": "Somewhat weaker creative drafts; the verifier guarantees the same safety floor."
+      },
+      {
+        "strategy": "Deterministic template planner (no model call), cached story map, no keyframe spot-check",
+        "estimated_usd": 0.0,
+        "tradeoff": "Formulaic beat order and generic promise; description/footage mismatches go straight to a human."
+      }
+    ]
+  }
+}

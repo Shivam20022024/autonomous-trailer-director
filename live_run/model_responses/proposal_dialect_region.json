@@ -1,0 +1,155 @@
+{
+  "objective": "Build trust with dialect-region viewers by centering authentic dialect, family warmth, and rooted visuals while teasing compelling stakes without spoilers.",
+  "audience_promise": "Your voice, your proverbs, your home—told with respect and heart.",
+  "emotional_journey": [
+    "quiet homecoming",
+    "playful welcome",
+    "embrace and belonging",
+    "wisdom and pride",
+    "a shiver of mystery",
+    "family joy",
+    "old wounds surface",
+    "the stakes become clear",
+    "resolve to protect what matters"
+  ],
+  "music_bed": "music-01",
+  "music_reason": "A rooted, warm, and hopeful cue that feels native to the haveli setting and supports dialect-rich dialogue without overshadowing it.",
+  "segments": [
+    {
+      "beat": "Rooted opening",
+      "source_ref": "moment:m01a",
+      "video": "scene_01",
+      "source_in": "00:00:04.000",
+      "source_out": "00:00:06.800",
+      "audio": "music_only",
+      "text_card": {
+        "text": "In your words. At home.",
+        "seconds": 2.5
+      },
+      "transition": "fade_in",
+      "reason": "Establishes place and mood; signals cultural specificity and warmth (dr-3)."
+    },
+    {
+      "beat": "Playful welcome",
+      "source_ref": "line:d02_1",
+      "video": "scene_02",
+      "source_in": "00:01:32.150",
+      "source_out": "00:01:34.900",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "cut",
+      "reason": "Affectionate family banter showcases authentic dialect and humor without caricature (dr-3)."
+    },
+    {
+      "beat": "House has been waiting",
+      "source_ref": "line:d02_3",
+      "video": "scene_02",
+      "source_in": "00:02:04.750",
+      "source_out": "00:02:08.300",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "L-cut",
+      "reason": "Warm welcome deepens belonging and family theme central to completion uplift (dr-3)."
+    },
+    {
+      "beat": "Proverb of return",
+      "source_ref": "line:d03_2",
+      "video": "scene_03",
+      "source_in": "00:03:03.950",
+      "source_out": "00:03:07.800",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "match_cut",
+      "reason": "Spotlights a sincere regional saying—authentic language framed with respect (dr-3)."
+    },
+    {
+      "beat": "Night unease",
+      "source_ref": "line:d05_1",
+      "video": "scene_05",
+      "source_in": "00:06:09.900",
+      "source_out": "00:06:12.600",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "smash_cut",
+      "reason": "Brief intrigue adds texture without undercutting warmth, inviting curiosity."
+    },
+    {
+      "beat": "Courtyard laughter",
+      "source_ref": "moment:m06b",
+      "video": "scene_06",
+      "source_in": "00:07:10.000",
+      "source_out": "00:07:13.500",
+      "audio": "original_mix",
+      "transition": "cut",
+      "reason": "Everyday joy—Dadi’s laugh and family play—reinforces the heart of the story (dr-3)."
+    },
+    {
+      "beat": "Old wounds",
+      "source_ref": "line:d04_3",
+      "video": "scene_04",
+      "source_in": "00:04:39.900",
+      "source_out": "00:04:43.700",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "crossfade",
+      "reason": "Grounded conflict shows lived reality and responsibility, not stereotype."
+    },
+    {
+      "beat": "Will declared",
+      "source_ref": "line:d09_1",
+      "video": "scene_09",
+      "source_in": "00:10:55.000",
+      "source_out": "00:10:58.800",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "transition": "cut",
+      "reason": "Raises clear stakes around heritage and home, aligning to family-first themes (dr-3)."
+    },
+    {
+      "beat": "Accusation",
+      "source_ref": "line:d09_2",
+      "video": "scene_09",
+      "source_in": "00:11:15.000",
+      "source_out": "00:11:18.000",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "dialect_a",
+      "text_card": {
+        "text": "A home worth fighting for.",
+        "seconds": 2.5
+      },
+      "transition": "smash_cut",
+      "reason": "Emotional spike without revealing twists; frames commitment to family and place (dr-3)."
+    },
+    {
+      "beat": "Nameplate resolve",
+      "source_ref": "moment:m01b",
+      "video": "scene_01",
+      "source_in": "00:00:31.000",
+      "source_out": "00:00:34.000",
+      "audio": "music_only",
+      "text_card": {
+        "text": "A story spoken like home.",
+        "seconds": 2.5
+      },
+      "transition": "dip_to_black",
+      "reason": "Returns to the haveli identity, closing on rooted pride and hope (dr-3)."
+    }
+  ],
+  "insights_used": [
+    "dr-3"
+  ],
+  "alternate_text_cards": [
+    {
+      "text": "In the words we live by.",
+      "seconds": 2.5
+    },
+    {
+      "text": "Family, in the dialect of the heart.",
+      "seconds": 2.5
+    },
+    {
+      "text": "Our home. Our voice.",
+      "seconds": 2.5
+    }
+  ]
+}

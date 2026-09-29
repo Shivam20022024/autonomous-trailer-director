@@ -1,0 +1,61 @@
+{
+  "outcome": "No existing plan depends on model availability; plans stand unchanged. Future planning uses claude-sonnet-5-5.",
+  "trailers": [
+    {
+      "trailer_id": "family_v1",
+      "audience_id": "family",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience_id": "young_adult",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience_id": "dialect_region",
+      "impacted": false,
+      "impacted_segments": [],
+      "plan_level_dependencies": [],
+      "status_before": "PASS_WITH_WARNINGS",
+      "rechecked": true,
+      "changed_segments": 0,
+      "clip_changes": 0,
+      "status_after": "PASS_WITH_WARNINGS",
+      "diff": []
+    }
+  ],
+  "model_fallback": {
+    "unavailable": [
+      "claude-opus-5-5"
+    ],
+    "remaining_chain": [
+      "claude-sonnet-5-5"
+    ],
+    "next_planning_source": "claude-sonnet-5-5"
+  },
+  "event_id": "model_outage",
+  "type": "model_outage",
+  "description": "The preferred language model (claude-opus-5-5) becomes unavailable after the plans are made.",
+  "changed_entities": [
+    "model:claude-opus-5-5"
+  ],
+  "patch": [],
+  "report_path": "sample_run\\changes\\model_outage\\change_report.md"
+}

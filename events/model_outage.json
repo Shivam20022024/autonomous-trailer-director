@@ -1,0 +1,6 @@
+{
+  "event_id": "model_outage",
+  "type": "model_outage",
+  "description": "The preferred language model (claude-opus-5-5) becomes unavailable after the plans are made.",
+  "models": ["claude-opus-5-5"]
+}

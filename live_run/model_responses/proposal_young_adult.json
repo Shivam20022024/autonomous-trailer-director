@@ -1,0 +1,152 @@
+{
+  "objective": "Deliver a fast, funny, and high-stakes family teaser that spotlights humour, identity, and escalating conflict without revealing the central twist.",
+  "audience_promise": "A pacey, witty return home where cricket, cousins, and a contested legacy collide—no spoilers, just reasons to hit play.",
+  "emotional_journey": [
+    "Return and recognition",
+    "Playful banter",
+    "Warm belonging",
+    "Competitive spark",
+    "Rising friction",
+    "Public stakes",
+    "Mystery hook"
+  ],
+  "music_bed": "music-05",
+  "music_reason": "A driving, upbeat bed that carries quick banter into rising family conflict, matching the young-adult pace without overselling intensity.",
+  "segments": [
+    {
+      "beat": "Set the house and stakes",
+      "source_ref": "moment:m01b",
+      "video": "scene_01",
+      "source_in": "00:00:31.000",
+      "source_out": "00:00:33.000",
+      "audio": "music_only",
+      "text_card": {
+        "text": "Singh Niwas: where coming home gets complicated",
+        "seconds": 2
+      },
+      "transition": "hard_cut",
+      "reason": "Quick identity anchor with the nameplate primes the family legacy theme."
+    },
+    {
+      "beat": "Humour hits fast",
+      "source_ref": "line:d02_1",
+      "video": "scene_02",
+      "source_in": "00:01:32.150",
+      "source_out": "00:01:35.000",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "straight_cut",
+      "reason": "Rinku’s playful jab signals YA-friendly humour and pace."
+    },
+    {
+      "beat": "Banter with bite",
+      "source_ref": "line:d02_2",
+      "video": "scene_02",
+      "source_in": "00:01:35.350",
+      "source_out": "00:01:38.200",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "hard_cut",
+      "reason": "Amar’s comeback builds chemistry and keeps momentum."
+    },
+    {
+      "beat": "Belonging lands",
+      "source_ref": "line:d02_3",
+      "video": "scene_02",
+      "source_in": "00:02:04.900",
+      "source_out": "00:02:08.300",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "whip_cut",
+      "reason": "Dadi’s warmth grounds identity before conflict spikes."
+    },
+    {
+      "beat": "Youth energy, identity",
+      "source_ref": "moment:m06a",
+      "video": "scene_06",
+      "source_in": "00:06:51.000",
+      "source_out": "00:06:53.000",
+      "audio": "original_mix",
+      "transition": "match_cut",
+      "reason": "Courtyard cricket adds cultural texture and kinetic pace."
+    },
+    {
+      "beat": "Family joy, then pivot",
+      "source_ref": "moment:m06b",
+      "video": "scene_06",
+      "source_in": "00:07:10.200",
+      "source_out": "00:07:12.700",
+      "audio": "original_mix",
+      "text_card": {
+        "text": "Humour. Heritage. Head-to-head.",
+        "seconds": 2
+      },
+      "transition": "smash_cut",
+      "reason": "Laughter peaks just before we turn to rivalry—clean tonal pivot."
+    },
+    {
+      "beat": "Tension breaks through",
+      "source_ref": "line:d04_1",
+      "video": "scene_04",
+      "source_in": "00:04:12.300",
+      "source_out": "00:04:14.800",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "hard_cut",
+      "reason": "Direct challenge introduces the inheritance conflict without spoilers."
+    },
+    {
+      "beat": "Stakes defined",
+      "source_ref": "line:d09_1",
+      "video": "scene_09",
+      "source_in": "00:10:55.000",
+      "source_out": "00:10:58.000",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "hard_cut",
+      "reason": "Formal announcement clarifies what’s at risk—house and legacy."
+    },
+    {
+      "beat": "Accusation hits",
+      "source_ref": "line:d09_2",
+      "video": "scene_09",
+      "source_in": "00:11:15.000",
+      "source_out": "00:11:17.800",
+      "audio": "dialogue_and_music",
+      "subtitle_track": "source",
+      "transition": "smash_cut",
+      "reason": "Sharp escalation delivers conflict energy while keeping mystery intact."
+    },
+    {
+      "beat": "Mystery tease, no reveal",
+      "source_ref": "moment:m07b",
+      "video": "scene_07",
+      "source_in": "00:08:40.200",
+      "source_out": "00:08:42.400",
+      "audio": "music_only",
+      "text_card": {
+        "text": "Whose home is it, anyway?",
+        "seconds": 2
+      },
+      "transition": "fade_out",
+      "reason": "Hidden panel provides a hook without touching the central twist."
+    }
+  ],
+  "insights_used": [
+    "ya-2"
+  ],
+  "alternate_text_cards": [
+    {
+      "text": "Family. Fortune. Fallout.",
+      "seconds": 2
+    },
+    {
+      "text": "Pick a side—if you can.",
+      "seconds": 2
+    },
+    {
+      "text": "Home isn't simple.",
+      "seconds": 2
+    }
+  ]
+}

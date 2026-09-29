@@ -1,0 +1,124 @@
+{
+  "run_id": "sample",
+  "mode": "live",
+  "trailers": {
+    "family": {
+      "trailer_id": "family_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 36.1,
+      "segments": 10
+    },
+    "young_adult": {
+      "trailer_id": "young_adult_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 29.1,
+      "segments": 10
+    },
+    "dialect_region": {
+      "trailer_id": "dialect_region_v1",
+      "status": "PASS_WITH_WARNINGS",
+      "ready_for_editor": true,
+      "duration_seconds": 34.35,
+      "segments": 10
+    }
+  },
+  "distinctness": [
+    {
+      "pair": [
+        "dialect_region",
+        "family"
+      ],
+      "shared_clips": 4,
+      "jaccard": 0.25,
+      "too_similar": false
+    },
+    {
+      "pair": [
+        "dialect_region",
+        "young_adult"
+      ],
+      "shared_clips": 3,
+      "jaccard": 0.176,
+      "too_similar": false
+    },
+    {
+      "pair": [
+        "family",
+        "young_adult"
+      ],
+      "shared_clips": 3,
+      "jaccard": 0.176,
+      "too_similar": false
+    }
+  ],
+  "budget": {
+    "model_calls": 4,
+    "max_model_calls": 10,
+    "media_minutes": 1.659,
+    "max_media_minutes": 5.0,
+    "estimated_usd": 0.422946,
+    "max_total_usd": 1.5,
+    "within_budget": true,
+    "ledger": [
+      {
+        "type": "model_call",
+        "task": "analyze_episode",
+        "model": "gpt-5",
+        "audience": null,
+        "input_tokens": 5172,
+        "output_tokens": 6536,
+        "usd": 0.071825
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:family",
+        "model": "gpt-5",
+        "audience": "family",
+        "input_tokens": 6165,
+        "output_tokens": 6461,
+        "usd": 0.072316
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "family",
+        "minutes": 0.602,
+        "usd": 0.048133
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:young_adult",
+        "model": "gpt-5",
+        "audience": "young_adult",
+        "input_tokens": 6116,
+        "output_tokens": 5915,
+        "usd": 0.066795
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "young_adult",
+        "minutes": 0.485,
+        "usd": 0.0388
+      },
+      {
+        "type": "model_call",
+        "task": "propose_trailer:dialect_region",
+        "model": "gpt-5",
+        "audience": "dialect_region",
+        "input_tokens": 6141,
+        "output_tokens": 7160,
+        "usd": 0.079276
+      },
+      {
+        "type": "media_analysis",
+        "task": "keyframe spot-check of selected clips",
+        "audience": "dialect_region",
+        "minutes": 0.573,
+        "usd": 0.0458
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "note": "Aggregated preferences and engagement patterns from earlier campaigns. Insights are hypotheses and are bias-reviewed before the planner may use them.",
+  "profiles": {
+    "family": {
+      "summary": "Co-viewing households; respond to multi-generational warmth and gentle mystery.",
+      "insights": [
+        {"insight_id": "fam-1", "claim": "Multi-generational warmth drives completion for family promos.", "metric": "completion +22%",
+         "sample_size": 12000, "exposure_share": 0.45, "segment_attributes": ["household_type"], "implication": {"prefer_tags": ["warmth", "family"]}},
+        {"insight_id": "fam-2", "claim": "A light mystery beat lifts click-through.", "metric": "CTR +9%",
+         "sample_size": 8000, "exposure_share": 0.3, "segment_attributes": [], "implication": {"prefer_tags": ["mystery"]}}
+      ]
+    },
+    "young_adult": {
+      "summary": "Mobile-first viewers; respond to pace, humour and character friction.",
+      "insights": [
+        {"insight_id": "ya-1", "claim": "Twist-teaser promos had the highest share rate.", "metric": "shares +38%",
+         "sample_size": 9000, "exposure_share": 0.35, "segment_attributes": [], "implication": {"prefer_tags": ["twist", "revelation"]}},
+        {"insight_id": "ya-2", "claim": "Humour combined with family rivalry lifts completion.", "metric": "completion +17%",
+         "sample_size": 11000, "exposure_share": 0.4, "segment_attributes": [], "implication": {"prefer_tags": ["humour", "conflict", "identity"]}}
+      ]
+    },
+    "dialect_region": {
+      "summary": "Viewers in the eastern regional market watching with dialect subtitles.",
+      "insights": [
+        {"insight_id": "dr-1", "claim": "Comedic dialect clips got 2.3x engagement in this region.", "metric": "engagement x2.3",
+         "sample_size": 1400, "exposure_share": 0.81, "segment_attributes": ["region"], "implication": {"prefer_tags": ["humour", "dialect-rich"]},
+         "provenance": "81% of promos previously shown in this region were comedy cuts; sample drawn from one district."},
+        {"insight_id": "dr-2", "claim": "Viewers in lower-income districts prefer slapstick.", "metric": "CTR +12%",
+         "sample_size": 5000, "exposure_share": 0.5, "segment_attributes": ["region", "income"], "implication": {"prefer_tags": ["humour"]}},
+        {"insight_id": "dr-3", "claim": "Authentic language and family themes drive completion (balanced survey).", "metric": "completion +19%",
+         "sample_size": 3200, "exposure_share": 0.33, "segment_attributes": ["language_preference"], "implication": {"prefer_tags": ["dialect-rich", "family", "warmth"]}}
+      ]
+    }
+  }
+}
